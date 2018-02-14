@@ -1,23 +1,23 @@
 <?php
     $customers  = array(
         1 => array(
-            'email' => 'thommy@valentine.se',
-            'name' => 'Thomas van der Ven',
+            'email'    => 'thommy@valentine.se',
+            'name'     => 'Thomas van der Ven',
             'password' => 'thommy'            
         ),
         2 => array(
-            'email' => 'jenny@valentine.se',
-            'name' => 'Jenny Jäderborn',
+            'email'    => 'jenny@valentine.se',
+            'name'     => 'Jenny Jäderborn',
             'password' => 'jenny'        
         ),
         3 => array(
-            'email' => 'amanda@valentine.se',
-            'name' => 'Amanda Englund',
+            'email'    => 'amanda@valentine.se',
+            'name'     => 'Amanda Englund',
             'password' => 'amanda'   
         ),
         4 => array(
-            'email' => 'faroch@valentine.se',
-            'name' => 'Faroch Mehri',
+            'email'    => 'faroch@valentine.se',
+            'name'     => 'Faroch Mehri',
             'password' => 'faroch'   
         )
     );
