@@ -1,6 +1,6 @@
 <?php
     session_start();
-    require "incl/data.php";
+    require "data.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,7 +15,7 @@
         <header>
             <ul>
                 <li><a href="index.php">Start</a></li>
-                <li><a href="#">Produkter</a></li>
+                <li><a href="produkter.php">Produkter</a></li>
                 <li><a href="about.php">Om Oss</a></li>
                 <li><a href="contact.php">Kontakt</a></li>
                 <li><a href="signup.php">Skapa Konto</a></li>
