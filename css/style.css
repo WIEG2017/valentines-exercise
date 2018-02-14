@@ -3,7 +3,6 @@ body{
     padding: 0px;
 }
 
-<<<<<<< HEAD
 /* Place text in the middle of the image */
 .hero-text {
     text-align: center;
@@ -11,9 +10,6 @@ body{
 }
 
 
-=======
-/*CSS för login-sida och signup-sida*/
->>>>>>> f45a0d6705e8f23d8e396f7df4e50ff3e2b5d32a
 input {
     width: 300px;
     height: 30px;
