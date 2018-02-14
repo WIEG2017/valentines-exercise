@@ -23,10 +23,6 @@ echo "<a href=$url>$site_title</a>";
 $list("border")
 
 ?>
-
-
-    
-
     <a href="https://www.euroflorist.se/alla-hjartans-dag-ct1693?gclid=EAIaIQobChMI_7y52L6l2QIVBswYCh0ONwbBEAAYASAAEgKlgfD_BwE&gclsrc=aw.ds">select</a>
     <a href="https://www.nalleriet.se/alla-hjartans-dag-nallar/">select</a>
     <a href="http://www.inovadesign.se/hogtider/alla-hjartans-dag/">select</a>
