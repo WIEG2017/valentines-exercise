@@ -23,6 +23,7 @@
                 <li>Om oss</li>
         </div>
         <div id="favoritesDropdown">
+        <p>favoriter</p>
         </div>
 
     </div>
