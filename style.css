@@ -5,8 +5,8 @@ body{
 
 #header{
     width:100vw;
-    height:10vh;
-    background:  url("heart_bg.png") no-repeat fixed center;
+    height:15vh;
+    background:  url("img/heart_bg.png") no-repeat;
     position:fixed;
     margin-top:0px;
     display: flex;
