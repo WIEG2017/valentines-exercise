@@ -10,12 +10,12 @@
     <body>
         <header>
             <ul>
-                <li><a href="#">Start</a></li>
+                <li><a href="index.php">Start</a></li>
                 <li><a href="#">Produkter</a></li>
-                <li><a href="#">Om Oss</a></li>
-                <li><a href="#">Kontakt</a></li>
-                <li><a href="#">Skapa Konto</a></li>
-                <li><a href="#">Login</a></li>
+                <li><a href="about.php">Om Oss</a></li>
+                <li><a href="contact.php">Kontakt</a></li>
+                <li><a href="signup.php">Skapa Konto</a></li>
+                <li><a href="login.php">Login</a></li>
                 <li><a href="#">Medlemssida</a></li>
                 <li><a href="#">Kundvagn</a></li>
             </ul>

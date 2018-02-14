@@ -4,7 +4,7 @@
 
 
 <div class="hero-image">
-    <img src="./img/Valentines-Day-Shop.jpg" alt="Valentines Day" height="" width="100%">
+    <img src="./images/Valentines-Day-Shop.jpg" alt="Valentines Day" height="" width="100%">
 </div>
 <div class="hero-text">
     <h1>Valentines Day Shop</h1>
