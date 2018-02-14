@@ -2,8 +2,12 @@
 
 
 
+        </div> <!-- Avslutar div id content -->
 
+        <div id = "footer">
 
-        <div id = "footer"></div>
+        
+        
+        </div>
     </body>
 </html>
