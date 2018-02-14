@@ -1,0 +1,14 @@
+body{
+
+}
+
+#header{
+    width:100vw;
+    height:50px;
+    background-color:rgb(185, 63, 63);
+}
+#footer{
+    width:100vw;
+    background-color:rgb(185, 63, 63);
+    height:50px;
+}
