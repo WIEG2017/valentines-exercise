@@ -9,6 +9,22 @@
 </head>
 <body>
     
-    <div id = "header"></div>
+    <div id = "header">
+        <div id="logo">
+        <h1>Valentines</h1>
+        </div>
+        <div id="menu">
+            <ul>
+                <li>Start</li>
+                <li>Valentines-tips</li>
+                <li>Om Valentines day</li>
+                <li>Singel-sidan</li>
+                <li>Kontakt</li>
+                <li>Om oss</li>
+        </div>
+        <div id="favoritesDropdown">
+        </div>
+
+    </div>
 
     <div id = "content"></div>
