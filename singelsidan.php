@@ -5,7 +5,7 @@
 
 
     <div id = "login">
-        <form method="GET">
+        <form method="POST">
             <input type = "text" name = "user">
             <input type = "password" name = "password">
             <button type = "submit">Login</button>
