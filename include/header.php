@@ -9,7 +9,6 @@
     <title>Valentines Day</title>
 </head>
 <body>
-    
     <div id = "header">
         <div id="logo">
         <h1>Valentines</h1>
@@ -29,14 +28,14 @@
                     </div>
                 </li>
                 <li><a href="">Om Valentines day</a></li>
-                <li><a href="">Singel-sidan</a></li>
+                <li><a href="singelsidan.php">Singel-sidan</a></li>
                 <li><a href="">Kontakt</a></li>
                 <li><a href="">Om oss</a></li>
                 <li class="dropdown">
                     <a href="javascript:void(0)" class="dropbtn">Spara favoriter</a>
                     <div class="dropdown-content">
                         <div class="layer">
-                            <form action="" method="get">
+                            <form action="" method="post" id="favoritesList">
                                 <input type="checkbox" name="gifts">Present-tips</input></br>
                                 <input type="checkbox" name="movies">Film-tips</input></br>
                                 <input type="checkbox" name="restaurants">Restaurang-tips</input></br>
