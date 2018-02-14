@@ -33,17 +33,20 @@
                 <li><a href="">Kontakt</a></li>
                 <li><a href="">Om oss</a></li>
                 <li class="dropdown">
-                    <a href="javascript:void(0)" class="dropbtn">Favoriter</a>
+                    <a href="javascript:void(0)" class="dropbtn">Spara favoriter</a>
                     <div class="dropdown-content">
                         <div class="layer">
-                            <a href="#">Present-tips</a>
-                            <a href="#">Film-tips</a>
-                            <a href="#">Restaurang-tips</a>
-                            <a href="#">Godis-tips</a>
-                            <a href="">Om Valentines day</a>
-                            <a href="">Singel-sidan</a>
-                            <a href="">Kontakt</a>
-                            <a href="">Om oss</a>
+                            <form action="" method="get">
+                                <input type="checkbox" name="gifts">Present-tips</input></br>
+                                <input type="checkbox" name="movies">Film-tips</input></br>
+                                <input type="checkbox" name="restaurants">Restaurang-tips</input></br>
+                                <input type="checkbox" name="candies">Godis-tips</input></br>
+                                <input type="checkbox" name="aboutValentines">Om Valentines day</input></br>
+                                <input type="checkbox" name="Singel">Singel-sidan</input></br>
+                                <input type="checkbox" name="contact">Kontakt</input></br>
+                                <input type="checkbox" name="aboutUs">Om oss</input></br>
+                                <button type="submit">Spara</button>
+                            </form>
                         </div>
                     </div>
                 </li>
