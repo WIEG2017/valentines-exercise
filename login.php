@@ -1,5 +1,5 @@
 <?php
-include 'loginfunction.php';
+include 'include/loginfunction.php';
 echo "<h1>Inlognings sidan</h1>";
 echo "<form action='".$_SERVER["PHP_SELF"]."' method='post'>";
 echo "Email : ";
