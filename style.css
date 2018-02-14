@@ -6,7 +6,7 @@ body{
 #header{
     width:100vw;
     height:10vh;
-    background-color:rgb(185, 63, 63);
+    background:  url("heart_bg.png") no-repeat fixed center;
     position:fixed;
     margin-top:0px;
     display: flex;
