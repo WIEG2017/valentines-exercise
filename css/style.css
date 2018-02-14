@@ -3,6 +3,7 @@ body{
     padding: 0px;
 }
 
+<<<<<<< HEAD
 /* Place text in the middle of the image */
 .hero-text {
     text-align: center;
@@ -10,18 +11,21 @@ body{
 }
 
 
+=======
+/*CSS för login-sida och signup-sida*/
+>>>>>>> f45a0d6705e8f23d8e396f7df4e50ff3e2b5d32a
 input {
     width: 300px;
     height: 30px;
     margin: 10px;
 }
 
-button {
+.loginButton, .signupButton {
     width: 200px;
     height: 35px;
     margin: auto;
     border: none;
-    background-color: red;
+    background-color: rgb(187, 87, 101);
     color: white;
     font-family: times;
     text-transform: uppercase;
@@ -29,11 +33,19 @@ button {
 }
 
 form {
+    padding-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(211, 211, 211, 0.7);
+    background-color: rgba(245, 238, 243, 0.7);
     width: 350px;
     height: 250px;
 }
+
+wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
