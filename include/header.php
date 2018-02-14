@@ -9,7 +9,6 @@
     <title>Valentines Day</title>
 </head>
 <body>
-    
     <div id = "header">
         <div id="logo">
         <h1>Valentines</h1>
@@ -36,7 +35,7 @@
                     <a href="javascript:void(0)" class="dropbtn">Spara favoriter</a>
                     <div class="dropdown-content">
                         <div class="layer">
-                            <form action="" method="get">
+                            <form action="" method="post" id="favoritesList">
                                 <input type="checkbox" name="gifts">Present-tips</input></br>
                                 <input type="checkbox" name="movies">Film-tips</input></br>
                                 <input type="checkbox" name="restaurants">Restaurang-tips</input></br>
