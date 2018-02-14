@@ -1,3 +1,11 @@
+#Notes
+Röd: #fe0000
+lila: #ae0086
+rosa: #f11754
+
+
+
+
 # Alla hjärtans övning
 
 Ni ska bygga en hemsida som man kan ha nytta av på, eller inför, alla hjärtans dag.
