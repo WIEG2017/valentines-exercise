@@ -1,16 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<?php
+    include 'include/header.php';
+    include 'include/functions.php';
+?>
+    
     <style>
     .pension {
     font-size: 55px;
 }
     </style>
-    <title>Document</title>
-</head>
+
 
 <?php
 
@@ -19,16 +17,16 @@ if(isset($_POST['vanlig'])) {
    die('ooops');
 };
 
-
-echo "<h1>  Alla Hjärtans Dag 💘</h1>";
-
-echo "<div>Remember the date: 14 Februari. Love is in the air!</div>";
-
 echo "<form action='WhatisValDay.php' METHOD='POST'>";
 
 echo "<input type='submit' name='text' value='Vanlig läsning'><br>";
 
 echo "</form>";
+
+echo "<h1 class='pension'>  Alla Hjärtans Dag 💘</h1>";
+
+echo "<div class='pension'>Remember the date: 14 Februari. Love is in the air!</div>";
+
 
 echo "<p class='pension'>
 Alla hjärtans dag, eller Valentine’s Day som den heter på engelska, började firas i Sverige mycket sent. 
@@ -55,4 +53,8 @@ Den svenska skolan har alltmer fångat upp alla hjärtans dag. I en del svenska 
 </p>";
 
 
+?>
+
+<?php
+    include 'include/footer.php';
 ?>
