@@ -1,0 +1,39 @@
+body{
+    width:100%;
+    height:auto;
+    margin:0px;
+    padding: 0px;
+    background-color: rgb(218, 218, 218);
+
+
+}
+.header{
+    width:100%;
+    height:120px;
+    background-color:white;
+    color: rgb(29, 28, 28);
+    border-bottom: 10px solid rgb(163, 18, 18);
+    
+}
+
+.link{
+    text-decoration: none;
+    color:rgb(29, 28, 28);
+    margin: 0px 10px;
+}
+
+.cart_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    width: 90%;
+    height: 45px;
+    margin:auto;
+
+}
+
+.valentine{
+    font-size: 25px;
+    padding: 10px;
+    margin-left: 50px;
+}
