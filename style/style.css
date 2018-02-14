@@ -10,7 +10,7 @@ h1{
 #header{
     width:100vw;
     height:50px;
-    background:  url("img/hearts.png") no-repeat;
+    background:  url("../img/hearts.png") no-repeat;
     background-size: cover;
     position:fixed;
     margin-top:0px;

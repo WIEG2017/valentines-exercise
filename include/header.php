@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="../style/style.css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:600" rel="stylesheet"> 
     <title>Valentines Day</title>
 </head>
@@ -28,7 +28,7 @@
                     </div>
                 </li>
                 <li><a href="">Om Valentines day</a></li>
-                <li><a href="singelsidan.php">Singel-sidan</a></li>
+                <li><a href="pages/singelsidan.php">Singel-sidan</a></li>
                 <li><a href="">Kontakt</a></li>
                 <li><a href="">Om oss</a></li>
                 <li class="dropdown">
