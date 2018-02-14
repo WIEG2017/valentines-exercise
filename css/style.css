@@ -3,6 +3,13 @@ body{
     padding: 0px;
 }
 
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+
+}
+
+
 input {
     width: 300px;
     height: 30px;
