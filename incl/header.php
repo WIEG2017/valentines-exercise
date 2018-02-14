@@ -7,9 +7,20 @@
         <!--
             <link rel="stylesheet" type="text/css" href="./css/style.css">
         -->
-        <title>Document</title>
+        <title>Valentines Day Shop ❣️</title>
     </head>
     <body>
         <header>
-            <!-- menu/länkar -->
+            <ul>
+                <li><a href="#">Start</a></li>
+                <li><a href="#">Produkter</a></li>
+                <li><a href="#">Om Oss</a></li>
+                <li><a href="#">Kontakt</a></li>
+                <li><a href="#">Skapa Konto</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Medlemssida</a></li>
+                <li><a href="#">Kundvagn</a></li>
+            </ul>
         </header>
+
+
