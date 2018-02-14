@@ -1,6 +1,6 @@
 <?php
-    include 'header.php';
-    include 'functions.php';
+    include 'include/header.php';
+    include 'include/functions.php';
 ?>
 
 
@@ -18,5 +18,5 @@
 
 
 <?php
-    include 'footer.php';
+    include 'include/footer.php';
 ?>
