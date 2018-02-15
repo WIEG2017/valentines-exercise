@@ -16,6 +16,10 @@ input {
     margin: 10px;
 }
 
+h2 {
+    color: red;
+}
+
 .loginButton, .signupButton, .buttonStorText {
     width: 200px;
     height: 35px;
