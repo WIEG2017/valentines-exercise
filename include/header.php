@@ -14,7 +14,7 @@
             <div class="cart_menu">
                 <div class="menu">
                     <a href="index.php" class="link">Start</a>
-                    <a href="#"class="link">Array</a>
+                    <a href="array.php"class="link">Array</a>
                     <a href="#"class="link">Pension</a>
                     <a href="#"class="link">Blommor</a>
                     <a href="#"class="link">Choklad</a>
