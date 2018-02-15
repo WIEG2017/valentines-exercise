@@ -1,6 +1,3 @@
-<?php
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,14 +17,14 @@
         <div id="menu">
             <ul id="menuUL">
                 <li><a href="../index.php">Start</a></li>
-                <li class="dropdown">
+                <li class="dropdownList">
                     <a href="javascript:void(0)" class="dropbtn">Valentines-tips</a>
                     <div class="dropdown-content">
                         <div class="layer">
                             <a href="#">Present-tips</a>
                             <a href="../pages/filmtips.php">Film-tips</a>
                             <a href="#">Restaurang-tips</a>
-                            <a href="#">Godis-tips</a>
+                            <a href="../pages/godistips.php">Godis-tips</a>
                         </div>
                     </div>
                 </li>
@@ -35,7 +32,7 @@
                 <li><a href="../pages/singelsidanlogin.php">Singel-sidan</a></li>
                 <li><a href="">Kontakt</a></li>
                 <li><a href="">Om oss</a></li>
-                <li class="dropdown">
+                <li class="dropdownList">
                     <a href="javascript:void(0)" class="dropbtn">Spara favoriter</a>
                     <div class="dropdown-content">
                         <div class="layer">
