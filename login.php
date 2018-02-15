@@ -26,7 +26,7 @@
 ?>
 
 <?php
-   if($error) echo '<h2 style="color: red;">Användarnamn eller lösenord är fel!</h2>';
+   if($error) echo '<h2>Användarnamn eller lösenord är fel!</h2>';
 
    echo $_SERVER["REMOTE_ADDR"];
 ?>
