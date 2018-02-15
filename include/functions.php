@@ -17,7 +17,11 @@ function login($logins){
     for( $i = 0; $i < count($logins); $i++){
         $hello = $logins[$i][0];
         if( $_POST["user"] == $logins[$i][1] and  $_POST["password"] == $logins[$i][2] ){
+            $_SESSION["loginSingel"] = true;
+            header("location: singelsidan.php");
             echo "<script type='text/javascript'>alert('Välkommen $hello');</script>";
+           
+           
             
         }
     }    

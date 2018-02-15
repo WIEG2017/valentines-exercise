@@ -7,6 +7,7 @@ h1{
     margin: 10px;
 }
 
+
 #header{
     width:100vw;
     height:50px;
@@ -47,7 +48,7 @@ h1{
 .dropdown-content {
     display: none;
     position: absolute;
-    background:  url("img/hearts.png") no-repeat;
+    background:  url("../img/hearts.png") no-repeat;
     background-size: cover;
     background-color: rgba(255, 255, 255, 0.5);
     min-width: 160px;
@@ -70,12 +71,49 @@ h1{
     display: block;
 }
 #footer{
+    font-family: 'Josefin Sans', sans-serif;
     width:100vw;
-    height:15vh;
+    height:170px;
     background-color:#f11754;
     margin-bottom:0px;
+    display: flex;
+    justify-content: flex-end;
+}
+#favoriter{
+    width: 200px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+#favoriter h2{
+    margin: 0px;
+    margin-bottom: -25px;
+}
+#favoriter p{
+    margin-left: 5px;
+    line-height: 0px;
 }
 #content{
     min-height:85vh;
     padding-top:50px;
+}
+
+#singelS{
+    text-align: center;
+    margin-top:10vh;
+}
+.login{
+    background-color:#f11754;
+    height:40px;
+    width:80px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+.login:hover{
+    background-color:#ae0086;
+    color:blue;
+}
+#bg-pic-ssl{
+    background-color:#fe0000;
 }
