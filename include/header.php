@@ -33,29 +33,30 @@ include 'include/loginfunction.php';
                     echo "<input type='hidden' name='delete' value='true' >";
                     echo "<input type='submit' value='Logout'>";
                     echo "</form>";} ?>
+            <form method="post"  action="<?php echo $_SERVER["PHP_SELF"];?>">     
                 <div class="fav_form">
                     <div class="fav_item">
                         <div class="row">
-                            <div class="check_item">Start</div><input type="checkbox" name="start" class="checkbox">
-                            <div class="check_item">Array</div><input type="checkbox" name="array" class="checkbox">
+                            <div class="check_item">Start</div><input type="checkbox" name="check1" value="start" class="checkbox">
+                            <div class="check_item">array</div><input type="checkbox" name="check2" value="array" class="checkbox">
                         </div>
                         <div class="row">
-                            <div class="check_item">Pension</div><input type="checkbox" name="pension" class="checkbox">
-                            <div class="check_item">Blommor</div><input type="checkbox" name="blommor" class="checkbox">
+                            <div class="check_item">Pension</div><input type="checkbox" name="check3" value="pension" class="checkbox">
+                            <div class="check_item">Blommor</div><input type="checkbox" name="check4" value="blommor" class="checkbox">
                         </div>
                         <div class="row">
-                            <div class="check_item">Choklad</div><input type="checkbox" name="choklad" class="checkbox">
-                            <div class="check_item">Kontakt</div><input type="checkbox" name="Kontakt" class="checkbox">
+                            <div class="check_item">Choklad</div><input type="checkbox" name="check5" value="choklad" class="checkbox">
+                            <div class="check_item">Kontakt</div><input type="checkbox" name="check6" value="kontakt" class="checkbox">
                         </div>
                         <!-- <div class="row">
                            <div class="check_item">Om oss</div><input type="checkbox" name="Om oss"></div>-->
                             
                         
                     </div>
-                    <input type="submit" name="submit" value="Spara" class="save">
+                    <input type="submit" class="save">
                 </div>
+            </form>    
         </div>
     </div>
-    
-</body>
-</html>
+   
+
