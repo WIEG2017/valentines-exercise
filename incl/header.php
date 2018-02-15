@@ -37,7 +37,7 @@
                 }
                 ?>
                 <li><a href="#">Medlemssida</a></li>
-                <li><a href="#">Kundvagn<?php
+                <li><a href="kundvagn.php">Kundvagn<?php
                     $temp = $theCart->getQuantities();
                     if($temp) echo " ($temp)"; unset($temp);
                  ?></a></li>
