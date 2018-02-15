@@ -1,10 +1,8 @@
     <?php
         include '../include/header.php';
         include '../include/functions.php';
-        $_SESSION["hello"] = $hello1;
-        $_SESSION["ip"] = $ip1;
       
-        echo "<script type='text/javascript'>alert('Välkommen $hello1');</script>";
+        writeLogin($logins);
     ?>
 
 <div class="container">
