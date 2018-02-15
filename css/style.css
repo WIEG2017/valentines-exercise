@@ -76,6 +76,7 @@ wrapper {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 .row {
@@ -158,6 +159,7 @@ wrapper {
     border-radius: 3px;
     transition: 0.25s;
     text-decoration: none;
+    text-align: center;
 }
 
 .addbtn:hover {
