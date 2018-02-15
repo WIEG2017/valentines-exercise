@@ -19,25 +19,7 @@
 
 <!--Tabel-->
 <?php
-function build_table($list) {
-    $html = '<table>';
 
-    $html .= '<tr>';
-    foreach($list as $prod=>$blad){
-        $html .= '<th>' . htmlspecialchars($prod) . '</th>';
-    }
-    $html .= '</tr>';
-
-    foreach( $list as $unit=>$nalle){
-        $html .= '<tr>';
-        foreach($nalle as $ring){
-            $html .= '<td>' . htmlspecialchars($ring) . '</td>';
-        }
-        $html .= '</tr>';
-    }
-    $html .= '</table>';
-    return $html;
-}
 // foreach ($list [0] as $key=>$value)
 
 // $img = array ("rosor", "nalle", "smycken");
@@ -62,7 +44,7 @@ foreach ($list as $item) {
 // print_r(array_values($list));
 
 //Tabel för items
-echo build_table($list);
+
 
 echo '<table>';
 echo '<tr><th>title</th><th>price</th><th>img</th></tr>';
