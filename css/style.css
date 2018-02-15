@@ -16,7 +16,7 @@ input {
     margin: 10px;
 }
 
-.loginButton, .signupButton {
+.loginButton, .signupButton, .buttonStorText {
     width: 200px;
     height: 35px;
     margin: auto;
@@ -28,7 +28,7 @@ input {
     font-size: 12px;
 }
 
-form {
+.formLogin, .formSignup {
     padding-top: 30px;
     display: flex;
     flex-direction: column;
@@ -146,3 +146,28 @@ wrapper {
     background-color: #0a440a;
 }
 /* End of CSS för produkter- och produktsidan */
+
+/* CSS för about.php*/
+
+.textStor {
+    font-size: 25px;
+    max-width: 960px;
+    line-height: 200%;
+}
+.textNormal {
+    max-width: 960px;
+    line-height: 200%;
+}
+
+wrapperText {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
