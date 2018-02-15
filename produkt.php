@@ -10,8 +10,7 @@
     if(empty($product)) die(header('Location: ./index.php'));
     
     if(isset($_GET['atoc'])) {
-        $cart = new Cart();
-        $cart->addItem($prodID);
+        $theCart->addItem($prodID);
         die(header("Location: ./produkt.php?prodid=$prodID"));
     }
 ?>

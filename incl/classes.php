@@ -5,18 +5,9 @@
     
     
     /** The Cart class;
-     * 
-     * You can use this class in the header.php file to show the total number of
-     * the items in the cart beside Kundvagn in the top menu for all the pages;
-     * For example; 
-     * 
-     * <li><a href="kundvagn.php">Kundvagn<?php
-     *      $temp = new Cart();
-     *      $temp = $temp->getQuantities();
-     *      if($temp) echo " ($temp)";
-     *      unset($temp);
-     * ?></a></li>
-     * 
+     * I have created an instance of this class ; $theCart = new Cart(); in header.php to
+     * show the total number of the items in the cart beside Kundvagn in the top menu for all the pages.
+     * This instance ($theCart) has been used in produkt.php and it can be used in the kundvagn.php page. 
     **/
     class Cart {
         private $cart;
