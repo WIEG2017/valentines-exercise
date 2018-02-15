@@ -43,8 +43,8 @@
                                 <input type="checkbox" name="checkFavorites[]" value="Film-tips">Film-tips</input></br>
                                 <input type="checkbox" name="checkFavorites[]" value="Restaurang-tips">Restaurang-tips</input></br>
                                 <input type="checkbox" name="checkFavorites[]" value="Godis-tips">Godis-tips</input></br>
-                                <input type="checkbox" name="checkFavorites[]" value="Om Valentines day">Om Valentines day</input></br>
-                                <input type="checkbox" name="checkFavorites[]" value="Singel-sidan">Singel-sidan</input></br>
+                                <input type="checkbox" name="checkFavorites[]" value='<a href="../pages/WhatisValDay.php">Om Valentines day</a>'>Om Valentines day</input></br>
+                                <input type="checkbox" name="checkFavorites[]" value='<a href="../pages/singelsidanlogin.php">Singel-sidan</a>'>Singel-sidan</input></br>
                                 <input type="checkbox" name="checkFavorites[]" value="Kontakt">Kontakt</input></br>
                                 <input type="checkbox" name="checkFavorites[]" value="Om oss">Om oss</input></br>
                                 <input type="submit" name="submit" Value="Spara"/>
