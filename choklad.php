@@ -4,7 +4,7 @@
     include 'include/loginfunction.php';
     include 'include/data.php';
     if($_SESSION['email']){
-      foreach($listOfEachFlower as $key=>$array){
+      foreach($listofEachChoclate as $key=>$array){
         echo "<div>";
         echo "<h1>$array[name]</h1>";
         echo "<img src=".$array["image"].">";

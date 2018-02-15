@@ -1,5 +1,43 @@
 <?php
 
+    $listofEachChoclate = array(
+        1 => array(
+            'catgoryId'=>2,
+            'name'=>'Alla Hjärtans Dag Ask Stor',
+            'image'=>'./bilder/choklad1.jpg',
+            'description'=>'Den här luvliga choklad asken är super fin.',
+            'price'=>299
+        ),
+        2 => array(
+            'catgoryId'=>2,
+            'name'=>'Alla Hjärtans Dag ask Liten',
+            'image'=>'./bilder/choklad2.jpg',
+            'description'=>'Den här luvliga choklad asken är super fin.',
+            'price'=>49
+        ),
+        3 => array(
+            'catgoryId'=>2,
+            'name'=>'Lakritskolahjärta',
+            'image'=>'./bilder/choklad3.jpg',
+            'description'=>'Den här luvliga choklad asken är super fin.',
+            'price'=>75
+        ),
+        4 => array(
+            'catgoryId'=>2,
+            'name'=>'Presentask med 98 praliner',
+            'image'=>'./bilder/choklad4.jpg',
+            'description'=>'Den här luvliga choklad asken är super fin.',
+            'price'=>1000
+        ),
+        5 => array(
+            'catgoryId'=>2,
+            'name'=>'Presentask med 30 praliner',
+            'image'=>'./bilder/choklad5.jpg',
+            'description'=>'Den här luvliga choklad asken är super fin.',
+            'price'=>390
+        ),
+    );
+
     $listOfEachFlower = array(
         // Här ska skapas classer när den är skapad
         1 => array(
