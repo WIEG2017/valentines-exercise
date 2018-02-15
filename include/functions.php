@@ -11,8 +11,7 @@ $logins = array(
 
 
 function login($logins){
-    $username = "user";
-    $password = "password";
+    
 
     for( $i = 0; $i < count($logins); $i++){
         $hello = $logins[$i][0];
@@ -26,3 +25,5 @@ function login($logins){
         }
     }    
 }
+
+

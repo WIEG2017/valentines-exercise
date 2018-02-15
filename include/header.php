@@ -7,8 +7,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../style/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:600" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600" rel="stylesheet"> 
     <title>Valentines Day</title>
 </head>
 <body>
@@ -24,7 +25,7 @@
                     <div class="dropdown-content">
                         <div class="layer">
                             <a href="#">Present-tips</a>
-                            <a href="#">Film-tips</a>
+                            <a href="../pages/filmtips.php">Film-tips</a>
                             <a href="#">Restaurang-tips</a>
                             <a href="#">Godis-tips</a>
                         </div>
@@ -43,8 +44,8 @@
                                 <input type="checkbox" name="checkFavorites[]" value="Film-tips">Film-tips</input></br>
                                 <input type="checkbox" name="checkFavorites[]" value="Restaurang-tips">Restaurang-tips</input></br>
                                 <input type="checkbox" name="checkFavorites[]" value="Godis-tips">Godis-tips</input></br>
-                                <input type="checkbox" name="checkFavorites[]" value="Om Valentines day">Om Valentines day</input></br>
-                                <input type="checkbox" name="checkFavorites[]" value="Singel-sidan">Singel-sidan</input></br>
+                                <input type="checkbox" name="checkFavorites[]" value='<a href="../pages/WhatisValDay.php">Om Valentines day</a>'>Om Valentines day</input></br>
+                                <input type="checkbox" name="checkFavorites[]" value='<a href="../pages/singelsidanlogin.php">Singel-sidan</a>'>Singel-sidan</input></br>
                                 <input type="checkbox" name="checkFavorites[]" value="Kontakt">Kontakt</input></br>
                                 <input type="checkbox" name="checkFavorites[]" value="Om oss">Om oss</input></br>
                                 <input type="submit" name="submit" Value="Spara"/>

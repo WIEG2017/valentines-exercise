@@ -24,10 +24,7 @@
                         echo "<p>".$selected ."</p>";
                     }
                 }
-                // else{
-                // echo "<b>Please Select Atleast One Option.</b>";
-                // }
-                }
+            }
             
             ?>
             </div>

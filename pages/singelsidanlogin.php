@@ -1,14 +1,15 @@
 <?php
-    session_start(); 
-    include '../include/header.php';
+    if(!isset($mainAlreadyIncluded)){
+        session_start(); 
+    
     include '../include/functions.php';
     login($logins);
-    
-    
-    
-    if($_SESSION["loginSingel"] = false){
-
+    include '../include/header.php';
     }
+    $mainAlreadyIncluded = true;
+    
+
+
 ?>
 
 
