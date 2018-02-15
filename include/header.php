@@ -18,7 +18,7 @@ session_start();
         </div>
         <div id="menu">
             <ul id="menuUL">
-                <li><a href="">Start</a></li>
+                <li><a href="../index.php">Start</a></li>
                 <li class="dropdown">
                     <a href="javascript:void(0)" class="dropbtn">Valentines-tips</a>
                     <div class="dropdown-content">

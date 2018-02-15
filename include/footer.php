@@ -7,7 +7,7 @@
         <div id = "footer">
         <div id="favoriter">
             <?php
-            //$selectedFavorites = $_GET['favoritesList'];
+            echo "<h2>Favoriter: </h2><br/>";
          
 
         
@@ -18,7 +18,7 @@
                 if(!empty($_POST['checkFavorites'])) {
                     //sparar det i session
                     $_SESSION['checkFavorites'] = $_POST['checkFavorites'];
-                    echo "<h2>Favoriter: </h2><br/>";
+                    
                     // Loopar igenom och kollar vilka som har blivit checkade.
                     foreach($_SESSION['checkFavorites'] as $selected) {
                         echo "<p>".$selected ."</p>";
