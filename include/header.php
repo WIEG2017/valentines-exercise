@@ -1,4 +1,8 @@
-<?php $title = 'Valentine'; ?>
+<?php 
+session_start(); 
+$title = 'Valentine';
+include 'include/loginfunction.php';
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,7 +27,12 @@
                     <a href="#"class="link">Om oss</a>
                 </div>
                 <div class="cart"><a href="kassa.php"><i class="fa fa-shopping-cart fa-2x"></i></a></div>
-
+                <?php if($_SESSION['email']){
+                    echo "du är inloggad!";
+                    echo "<form  action='".$_SERVER["PHP_SELF"]."' method='post'>";
+                    echo "<input type='hidden' name='delete' value='true' >";
+                    echo "<input type='submit' value='Logout'>";
+                    echo "</form>";} ?>
                 <div class="fav_form">
                     <div class="fav_item">
                         <div class="row">
