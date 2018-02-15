@@ -1,3 +1,9 @@
+<?php
+    session_start();
+    require "data.php";
+    require 'classes.php';
+    $theCart = new Cart();
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -11,13 +17,16 @@
         <header>
             <ul>
                 <li><a href="index.php">Start</a></li>
-                <li><a href="#">Produkter</a></li>
+                <li><a href="produkter.php">Produkter</a></li>
                 <li><a href="about.php">Om Oss</a></li>
                 <li><a href="contact.php">Kontakt</a></li>
                 <li><a href="signup.php">Skapa Konto</a></li>
                 <li><a href="login.php">Login</a></li>
                 <li><a href="#">Medlemssida</a></li>
-                <li><a href="#">Kundvagn</a></li>
+                <li><a href="#">Kundvagn<?php
+                    $temp = $theCart->getQuantities();
+                    if($temp) echo " ($temp)"; unset($temp);
+                 ?></a></li>
             </ul>
         </header>
 

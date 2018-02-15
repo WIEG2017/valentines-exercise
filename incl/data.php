@@ -18,7 +18,7 @@
         4 => array(
             'email'    => 'faroch@valentine.se',
             'name'     => 'Faroch Mehri',
-            'password' => 'faroch'   
+            'password' => 'faroch'
         )
     );
     
@@ -37,23 +37,23 @@
         ),
         2 => array(
             'catid'   => 1,
-            'name'    => 'Beige Kanin',
+            'name'    => 'Nalle love',
             'image'   => './images/nalle2.jpg',
-            'dscrptn' => 'Jag är den superpopulära fluffiga kaninen Bashful Bunny, och är sådär extra mjuk och härlig.',
+            'dscrptn' => 'Jag är den superpopulära fluffiga nallen Bashful Bunny, och är sådär extra mjuk och härlig.',
             'price'   => 249
         ),
         3 => array(
             'catid'   => 1,
-            'name'    => 'VEM-Katten',
+            'name'    => 'Nalle med rött hjärta',
             'image'   => './images/nalle3.jpg',
-            'dscrptn' => 'Jag är en färgglad katt från de populära Vem?-böckerna av Stina Wirsén, jag är designad i samarbete med Anna Hörling.',
+            'dscrptn' => 'Lite större nalle ( ca 16 cm) som håller i ett stort rött hjärta',
             'price'   => 449
         ),
         4 => array(
             'catid'   => 1,
-            'name'    => 'Nalle med rött hjärta',
+            'name'    => 'VEM-Nalle',
             'image'   => './images/nalle4.jpg',
-            'dscrptn' => 'Lite större nalle ( ca 16 cm) som håller i ett stort rött hjärta',
+            'dscrptn' => 'Jag är en färgglad nalle från de populära Vem?-böckerna av Stina Wirsén, jag är designad i samarbete med Anna Hörling.',
             'price'   => 399
         ),
         5 => array(
