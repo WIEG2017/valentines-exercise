@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://use.fontawesome.com/6b6b3eeb71.js"></script>
+    <link rel="stylesheet" type="text/css" href="../style.css">
     <title><?php $title ?></title>
 </head>
 <body>
@@ -21,11 +22,28 @@
                     <a href="#"class="link">Kontakt</a>
                     <a href="#"class="link">Om oss</a>
                 </div>
-                <div class="cart">Kundvagn</div>
+                <div class="cart"><i class="fa fa-shopping-cart fa-2x"></i></div>
+
                 <div class="fav_form">
                     <div class="fav_item">
-                        Start <input type="checkbox">
+                        <div class="row">
+                            <div class="check_item">Start</div><input type="checkbox" name="start" class="checkbox">
+                            <div class="check_item">Array</div><input type="checkbox" name="array" class="checkbox">
+                        </div>
+                        <div class="row">
+                            <div class="check_item">Pension</div><input type="checkbox" name="pension" class="checkbox">
+                            <div class="check_item">Blommor</div><input type="checkbox" name="blommor" class="checkbox">
+                        </div>
+                        <div class="row">
+                            <div class="check_item">Choklad</div><input type="checkbox" name="choklad" class="checkbox">
+                            <div class="check_item">Kontakt</div><input type="checkbox" name="Kontakt" class="checkbox">
+                        </div>
+                        <!-- <div class="row">
+                           <div class="check_item">Om oss</div><input type="checkbox" name="Om oss"></div>-->
+                            
+                        
                     </div>
+                    <input type="submit" name="submit" value="Spara" class="save">
                 </div>
         </div>
     </div>
