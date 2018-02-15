@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0px;
     padding: 0px;
 }
@@ -32,6 +32,21 @@ h2 {
     font-size: 12px;
 }
 
+.buttonLogout {
+    width: 150px;
+    height: 46px;
+    position: fixed;
+    top: 0px;
+    right:0px;
+    margin: 0px;
+    border: none;
+    background-color: pink;
+    color: white;
+    font-family: times;
+    font-size: 16px;
+    float: right;
+}
+
 .formLogin, .formSignup {
     padding-top: 30px;
     display: flex;
@@ -61,6 +76,7 @@ wrapper {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 .row {
@@ -143,6 +159,7 @@ wrapper {
     border-radius: 3px;
     transition: 0.25s;
     text-decoration: none;
+    text-align: center;
 }
 
 .addbtn:hover {
@@ -205,12 +222,34 @@ li a {
 }
 
 footer {
-
-    left: 0;
-    bottom: 0;
     width: 100%;
     text-align: center;
     display: block;
     background-color: rgb(215, 215, 215);
-   
 }
+
+.favorit {
+
+    width: 100px;
+    height: 10%;
+    background-color: rgb(238, 180, 191);
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 3.5s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+   
+
+}
+
+@-webkit-keyframes example {
+    0%   {color: black; background-color: white; left:0px; top:0px;}
+  
+}
+
+@keyframes example {
+    0%   {color: black; background-color: white; left:0px; top:0px;}
+}
+
