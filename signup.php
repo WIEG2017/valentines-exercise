@@ -1,4 +1,5 @@
 <?php
+    $page_title = "Sign Up";
     include "incl/header.php";
 ?>
 

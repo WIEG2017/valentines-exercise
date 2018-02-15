@@ -1,4 +1,5 @@
 <?php
+    $page_title = "Products";
     include "incl/header.php";
     
     $array    = array();

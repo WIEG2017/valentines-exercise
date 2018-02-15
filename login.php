@@ -1,4 +1,5 @@
 <?php
+    $page_title = "Login";
     include "incl/header.php";
 
     if(isset($_SESSION['CID'])) header('Location: ./index.php');
