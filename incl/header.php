@@ -1,6 +1,7 @@
 <?php
     session_start();
     require "data.php";
+    require 'classes.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
