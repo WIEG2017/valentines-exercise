@@ -20,8 +20,8 @@
                     $_SESSION['checkFavorites'] = $_POST['checkFavorites'];
                     
                     // Loopar igenom och kollar vilka som har blivit checkade.
-                    foreach($_SESSION['checkFavorites'] as $selected) {
-                        echo "<p>".$selected ."</p>";
+                    foreach($_SESSION['checkFavorites'] as $_SESSION['selected']) {
+                        echo "<p>". $_SESSION['selected'] ."</p>";
                     }
                 }
             }

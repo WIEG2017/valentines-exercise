@@ -12,7 +12,7 @@ h1{
 
 
 #header{
-    z-index:1;
+    z-index: 1;
     width:100vw;
     height:50px;
     background:  url("../img/hearts.png") no-repeat;
@@ -40,7 +40,7 @@ h1{
 #menuUL>li {
     float: left;
 }
-#menuUL>li>a:hover, .dropdown:hover .dropbtn {
+#menuUL>li>a:hover, .dropdownList:hover .dropbtn {
     background-color: #fe0000;
 }
 #menuUL>li a, .dropbtn {
@@ -50,7 +50,7 @@ h1{
     padding: 17px 16px;
     text-decoration: none; 
 }
-#menuUL>li.dropdown {
+#menuUL>li.dropdownList {
     display: inline-block;
 }
 .dropdown-content {
@@ -75,7 +75,7 @@ h1{
 }
 .dropdown-content a:hover {background-color: #fe0000;}
 
-.dropdown:hover .dropdown-content {
+.dropdownList:hover .dropdown-content {
     display: block;
 }
 #footer{
@@ -103,7 +103,7 @@ h1{
 }
 #content{
     margin: auto;
-    min-height:85vh;
+    min-height:80vh;
     padding-top: 50px;
     width: 980px;
 }
@@ -135,6 +135,6 @@ h1{
     max-width:320px;
 }
 .container{
-    z-index:2;
+    z-index: 2;
     margin-top:30px;
 }
