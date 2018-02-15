@@ -1,7 +1,10 @@
 <?php
+    if(!isset($mainLoaded))
+    {
+        require "incl/main.php";
+    }
+    $mainLoaded = true;
     session_start();
-    require "data.php";
-    require 'classes.php';
     $theCart = new Cart();
 ?>
 <!DOCTYPE html>
@@ -28,6 +31,21 @@
                     if($temp) echo " ($temp)"; unset($temp);
                  ?></a></li>
             </ul>
+            <?php
+                if(isset($page_title))
+                {
+                    echo "<form method='POST' action='newfav.php'>";
+                    $currentURL = $_SERVER['REQUEST_URI'];
+                    if($currentURL == "/")
+                    {
+                        $currentURL = "/index.php";
+                    }
+                    echo "<input type='hidden' name='pagename' value='$page_title'>";
+                    echo "<input type='hidden' name='pageurl' value='$currentURL'>";
+                    echo "<button type='submit'>Favourite this page</button>";
+                    echo "</form>";
+                }
+            ?>
         </header>
 
 
