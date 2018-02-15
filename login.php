@@ -13,11 +13,11 @@
             if(($value['email'] == $_POST['email']) && ($value['password'] == $_POST['password'])) {
                 $_SESSION['CID'] = $key;
                 $namn = $value['name'];
+                $ip = $_SERVER['REMOTE_ADDR'];
 
-                echo "<script type='text/javascript'>alert('Välkommen $namn');
+                echo "<script type='text/javascript'>alert('Välkommen $namn, ditt ip: $ip');
                 window.location.replace(\"index.php\")
                 </script>";
-                //header('Location: ./index.php');
             }
         }
         

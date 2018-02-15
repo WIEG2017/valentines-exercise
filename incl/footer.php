@@ -3,6 +3,7 @@
             <footer>    
           
 
+        <footer>
             <?php
                 foreach($_SESSION['fav'] as $fav)
                 {
@@ -19,5 +20,7 @@
         
              </footer>
 
+            <p>Copyright WIEG17</p>
+        </footer>
     </body>
 </html>

@@ -154,6 +154,10 @@ wrapper {
     max-width: 960px;
     line-height: 200%;
 }
+
+.buttonStorText {
+    margin: 10px;
+}
 .textNormal {
     max-width: 960px;
     line-height: 200%;
