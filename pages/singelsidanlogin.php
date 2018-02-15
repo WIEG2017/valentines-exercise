@@ -1,9 +1,9 @@
 
 <?php
-
+    include '../include/header.php';
     include '../include/functions.php';
     login($logins);
-    include '../include/header.php';
+    
     
     
     if($_SESSION["loginSingel"] = false){

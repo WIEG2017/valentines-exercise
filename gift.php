@@ -31,21 +31,24 @@ function build_table($list) {
 }
 // foreach ($list [0] as $key=>$value)
 
-$img = array ("rosor", "nalle", "smycken");
+// $img = array ("rosor", "nalle", "smycken");
 
-shuffle($img);
-foreach ($img as $picture) {
-    echo "<img src= 'img/$picture.jpg'> <br>";
-}
+// shuffle($img);
+// foreach ($img as $picture) {
+//     echo "<img src= 'img/$picture.jpg'> <br>";
+//}
 
-$list = array (array ("title"=>"blommor", "price"=>"200kr"),
-                array("title"=>"mjukisdjur", "price"=>"150kr"), 
-                array("title"=>"smycken", "price"=>"700kr")
+$list = array (array ("title"=>"blommor", "price"=>"200kr", "img"=>"rosor"),
+                array("title"=>"mjukisdjur", "price"=>"150kr", "img"=>"nalle"), 
+                array("title"=>"smycken", "price"=>"700kr", "img"=>"smycken")
 );
+shuffle($list);
+foreach ($list as $picture) {
+    echo "<img src= 'img/$picture.jpg'> <br>";
 // print_r(array_values($list));
 
 echo build_table($list);
-
+}
 ?>
 
 
