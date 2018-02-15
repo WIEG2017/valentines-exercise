@@ -18,13 +18,13 @@
     </head>
     <body>
         <header>
-            <ul>
+            <ul style="opacity: 1; color: white; background: url('images/black.jpeg')fixed;">
                 <li><a href="index.php">Start</a></li>
                 <li><a href="produkter.php">Produkter</a></li>
                 <li><a href="about.php">Om Oss</a></li>
                 <li><a href="contact.php">Kontakt</a></li>
                 <li><a href="signup.php">Skapa Konto</a></li>
-                <li><a href="login.php">Login</a></li>
+                <li style="float:right; width: 10%;"><a class="active" href="login.php">Logga in</a></li>
                 <li><a href="#">Medlemssida</a></li>
                 <li><a href="#">Kundvagn<?php
                     $temp = $theCart->getQuantities();
