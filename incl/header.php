@@ -42,7 +42,7 @@
                     }
                     echo "<input type='hidden' name='pagename' value='$page_title'>";
                     echo "<input type='hidden' name='pageurl' value='$currentURL'>";
-                    echo "<button type='submit'>Favourite this page</button>";
+                    echo "<button class='favorit' type='submit'>Favourite this page</button>";
                     echo "</form>";
                 }
             ?>
