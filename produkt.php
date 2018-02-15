@@ -13,14 +13,13 @@
     
     if(empty($product)) die(header('Location: ./index.php'));
     
+    $page_title = $product['name'];
+    include "incl/header.php";
+    
     if(isset($_GET['atoc'])) {
         $theCart->addItem($prodID);
         die(header("Location: ./produkt.php?prodid=$prodID"));
     }
-    
-    $page_title = $product['name'];
-
-    include "incl/header.php";
 ?>
 
 <div class="content">
