@@ -96,3 +96,24 @@ h1{
     min-height:85vh;
     padding-top:50px;
 }
+
+#singelS{
+    text-align: center;
+    margin-top:10vh;
+}
+.login{
+    background-color:#f11754;
+    height:40px;
+    width:80px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+.login:hover{
+    background-color:#ae0086;
+    color:blue;
+}
+#bg-pic-ssl{
+    background-color:#fe0000;
+}

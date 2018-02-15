@@ -7,6 +7,12 @@
         <div id = "footer">
         <div id="favoriter">
             <?php
+<<<<<<< HEAD
+            //$selectedFavorites = $_GET['favoritesList'];
+         
+
+        
+=======
          
             //Kollar att favoriter har blivit sparade
             if(isset($_POST['submit'])){
@@ -25,6 +31,7 @@
                 // }
                 }
             
+>>>>>>> 1697ddc8360b0094b75e0890613f9c0efff2cf44
             ?>
             </div>
         </div>

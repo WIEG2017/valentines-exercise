@@ -30,8 +30,13 @@ session_start();
                         </div>
                     </div>
                 </li>
+<<<<<<< HEAD
+                <li><a href="">Om Valentines day</a></li>
+                <li><a href="pages/singelsidanlogin.php">Singel-sidan</a></li>
+=======
                 <li><a href="../pages/WhatisValDay.php">Om Valentines day</a></li>
                 <li><a href="pages/singelsidan.php">Singel-sidan</a></li>
+>>>>>>> 1697ddc8360b0094b75e0890613f9c0efff2cf44
                 <li><a href="">Kontakt</a></li>
                 <li><a href="">Om oss</a></li>
                 <li class="dropdown">
