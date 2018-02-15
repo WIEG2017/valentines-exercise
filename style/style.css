@@ -6,7 +6,7 @@ body{
     font-weight: 400;   
 }
 h1{
-    margin: 10px;
+    margin: 0px;
     font-weight: 600;   
 }
 
@@ -22,6 +22,9 @@ h1{
     justify-content: center;
     font-weight: 600;   
 }
+#header h1{
+    margin: 8px;
+}
 #logo{
     background-color: rgba(255, 255, 255, 0.7);
 }
@@ -31,6 +34,7 @@ h1{
     padding: 0;
     overflow: hidden;
     background-color: rgba(255, 255, 255, 0.7);
+
 }
 #menuUL>li {
     float: left;
@@ -97,8 +101,10 @@ h1{
     line-height: 0px;
 }
 #content{
+    margin: auto;
     min-height:85vh;
-    padding: 50px 50px 0px 50px;
+    padding-top: 50px;
+    width: 980px;
 }
 
 #singelS{
