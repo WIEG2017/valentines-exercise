@@ -16,6 +16,10 @@ input {
     margin: 10px;
 }
 
+h2 {
+    color: red;
+}
+
 .loginButton, .signupButton, .buttonStorText {
     width: 200px;
     height: 35px;
@@ -154,6 +158,10 @@ wrapper {
     max-width: 960px;
     line-height: 200%;
 }
+
+.buttonStorText {
+    margin: 10px;
+}
 .textNormal {
     max-width: 960px;
     line-height: 200%;
@@ -171,3 +179,38 @@ h1 {
     text-transform: uppercase;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.active {
+    background-color: pink;
+}
+
+footer {
+
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    display: block;
+    background-color: rgb(215, 215, 215);
+   
+}

@@ -1,6 +1,10 @@
 <?php
-    include "incl/header.php";
-    
+    if(!isset($mainLoaded))
+    {
+        require "incl/main.php";
+    }
+    $mainLoaded = true;
+
     if(isset($_GET['prodid'])) {
         $prodID = intval($_GET['prodid']);
         if(isset($products[$prodID])) $product = $products[$prodID];
@@ -13,7 +17,12 @@
         $theCart->addItem($prodID);
         die(header("Location: ./produkt.php?prodid=$prodID"));
     }
+    
+    $page_title = $product['name'];
+
+    include "incl/header.php";
 ?>
+
 <div class="content">
     <div class="row">
         <div class="column"><img alt="<?=$product['name'];?>" src="<?=$product['image'];?>" /></div>

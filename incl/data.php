@@ -85,4 +85,9 @@
             'price'   => 249
         ),
     );
+
+    if(!isset($_SESSION['fav']))
+    {
+        $_SESSION['fav'] = array();
+    }
 ?>

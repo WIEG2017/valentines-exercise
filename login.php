@@ -12,7 +12,12 @@
         foreach($customers as $key => $value) {
             if(($value['email'] == $_POST['email']) && ($value['password'] == $_POST['password'])) {
                 $_SESSION['CID'] = $key;
-                header('Location: ./index.php');
+                $namn = $value['name'];
+                $ip = $_SERVER['REMOTE_ADDR'];
+
+                echo "<script type='text/javascript'>alert('Välkommen $namn, ditt ip: $ip');
+                window.location.replace(\"index.php\")
+                </script>";
             }
         }
         
@@ -21,7 +26,8 @@
 ?>
 
 <?php
-   if($error) echo '<h2 style="color: red;">Användarnamn eller lösenord är fel!</h2>';
+   if($error) echo '<h2>Användarnamn eller lösenord är fel!</h2>';
+
 ?>
 <form class='formLogin' method="POST">
    <input type="text" placeholder=" Email" name="email"/>

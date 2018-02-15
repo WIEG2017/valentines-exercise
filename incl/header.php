@@ -1,7 +1,10 @@
 <?php
+    if(!isset($mainLoaded))
+    {
+        require "incl/main.php";
+    }
+    $mainLoaded = true;
     session_start();
-    require "data.php";
-    require 'classes.php';
     $theCart = new Cart();
 ?>
 <!DOCTYPE html>
@@ -15,19 +18,34 @@
     </head>
     <body>
         <header>
-            <ul>
+            <ul style="opacity: 1; color: white; background: url('images/black.jpeg')fixed;">
                 <li><a href="index.php">Start</a></li>
                 <li><a href="produkter.php">Produkter</a></li>
                 <li><a href="about.php">Om Oss</a></li>
                 <li><a href="contact.php">Kontakt</a></li>
                 <li><a href="signup.php">Skapa Konto</a></li>
-                <li><a href="login.php">Login</a></li>
+                <li style="float:right; width: 10%;"><a class="active" href="login.php">Logga in</a></li>
                 <li><a href="#">Medlemssida</a></li>
                 <li><a href="#">Kundvagn<?php
                     $temp = $theCart->getQuantities();
                     if($temp) echo " ($temp)"; unset($temp);
                  ?></a></li>
             </ul>
+            <?php
+                if(isset($page_title))
+                {
+                    echo "<form method='POST' action='newfav.php'>";
+                    $currentURL = $_SERVER['REQUEST_URI'];
+                    if($currentURL == "/")
+                    {
+                        $currentURL = "/index.php";
+                    }
+                    echo "<input type='hidden' name='pagename' value='$page_title'>";
+                    echo "<input type='hidden' name='pageurl' value='$currentURL'>";
+                    echo "<button type='submit'>Favourite this page</button>";
+                    echo "</form>";
+                }
+            ?>
         </header>
 
 
