@@ -22,7 +22,7 @@
                     <a href="#"class="link">Kontakt</a>
                     <a href="#"class="link">Om oss</a>
                 </div>
-                <div class="cart"><i class="fa fa-shopping-cart fa-2x"></i></div>
+                <div class="cart"><a href="kassa.php"><i class="fa fa-shopping-cart fa-2x"></i></a></div>
 
                 <div class="fav_form">
                     <div class="fav_item">
