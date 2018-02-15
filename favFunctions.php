@@ -11,9 +11,14 @@
         $newFave = new Favourite($_POST['pagename'], $_POST['pageurl']);
         if(isset($_SESSION['fav']))
         {
-            array_push($_SESSION['fav'], $newFave);
+            $newFave->addToArray($_SESSION['fav']);
         }
     }
 
-    header('Location: ' . $_SERVER['HTTP_REFERER']);
+    if(isset($_POST['remove']))
+    {
+        print_r($_SESSION['fav'][$_POST['target']]);
+    }
+
+    //header('Location: ' . $_SERVER['HTTP_REFERER']);
 ?>

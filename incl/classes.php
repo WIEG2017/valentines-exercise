@@ -113,7 +113,17 @@
 
         public function drawMe()
         {
-            echo '<a href="' . $this->url . '">' . $this->title .'</a><button>remove me</button>';
+            echo '<a href="' . $this->url . '">' . $this->title .'</a><form method="post" action="favFunctions.php"><input type="hidden" name="target" value="' . $this->title . '"><input type="submit" name="remove" value="Remove Me"></form>';
+        }
+
+        public function addToArray($array)
+        {
+            $array[$this->title] = $this;
+        }
+
+        public function removeFromArray($array)
+        {
+            unset($array[$this->title]);
         }
     }
 ?>
