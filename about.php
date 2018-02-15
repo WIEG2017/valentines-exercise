@@ -1,4 +1,5 @@
 <?php
+    $page_title = "About Us";
     include "incl/header.php";
 ?>
 <h1>Om oss</h1>
