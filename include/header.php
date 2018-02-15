@@ -19,9 +19,9 @@ include 'include/loginfunction.php';
             <div class="cart_menu">
                 <div class="menu">
                     <a href="index.php" class="link">Start</a>
-                    <a href="array.php"class="link">Array</a>
+                    <!-- <a href="array.php"class="link">Array</a> -->
                     <a href="#"class="link">Pension</a>
-                    <a href="#"class="link">Blommor</a>
+                    <a href="blomma.php"class="link">Blommor</a>
                     <a href="choklad.php"class="link">Choklad</a>
                     <a href="#"class="link">Kontakt</a>
                     <a href="#"class="link">Om oss</a>
