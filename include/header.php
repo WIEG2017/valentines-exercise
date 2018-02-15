@@ -20,11 +20,11 @@ include 'include/loginfunction.php';
                 <div class="menu">
                     <a href="index.php" class="link">Start</a>
                     <!-- <a href="array.php"class="link">Array</a> -->
-                    <a href="#"class="link">Pension</a>
+                    <a href="pension.php"class="link">Pension</a>
                     <a href="blomma.php"class="link">Blommor</a>
                     <a href="choklad.php"class="link">Choklad</a>
-                    <a href="#"class="link">Kontakt</a>
-                    <a href="#"class="link">Om oss</a>
+                    <a href="kontakt.php"class="link">Kontakt</a>
+                    <a href="omoss.php"class="link">Om oss</a>
                 </div>
                 <div class="cart"><a href="kassa.php"><i class="fa fa-shopping-cart fa-2x"></i></a></div>
                 <?php if($_SESSION['email']){
@@ -37,12 +37,12 @@ include 'include/loginfunction.php';
                 <div class="fav_form">
                     <div class="fav_item">
                         <div class="row">
-                            <div class="check_item">Start</div><input type="checkbox" name="check1" value="start" class="checkbox">
-                            <div class="check_item">array</div><input type="checkbox" name="check2" value="array" class="checkbox">
+                            <div class="check_item">Start</div><input type="checkbox" name="check1" value="index" class="checkbox">
+                            <div class="check_item">Om oss</div><input type="checkbox" name="check2" value="omoss" class="checkbox">
                         </div>
                         <div class="row">
                             <div class="check_item">Pension</div><input type="checkbox" name="check3" value="pension" class="checkbox">
-                            <div class="check_item">Blommor</div><input type="checkbox" name="check4" value="blommor" class="checkbox">
+                            <div class="check_item">Blommor</div><input type="checkbox" name="check4" value="blomma" class="checkbox">
                         </div>
                         <div class="row">
                             <div class="check_item">Choklad</div><input type="checkbox" name="check5" value="choklad" class="checkbox">
@@ -53,7 +53,7 @@ include 'include/loginfunction.php';
                             
                         
                     </div>
-                    <input type="submit" class="save">
+                    <input type="submit" value="save" class="save">
                 </div>
             </form>    
         </div>

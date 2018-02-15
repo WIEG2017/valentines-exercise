@@ -5,8 +5,14 @@ if($_POST['check1'] || $_POST['check2'] || $_POST['check3'] || $_POST['check4'] 
 $_SESSION['footer'] = $_POST;
 }
 echo "<br/>";
+if($_SESSION['footer']){
 foreach($_SESSION['footer'] as $key=>$value){
+    if($value == 'index'){
+    echo "<a href=".$value.".php>Start</a>"; 
+    }else{
     echo "<a href=".$value.".php>$value</a>";
+    }
+}
 }
 ?>
 </div>
