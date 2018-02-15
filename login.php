@@ -11,7 +11,12 @@
         foreach($customers as $key => $value) {
             if(($value['email'] == $_POST['email']) && ($value['password'] == $_POST['password'])) {
                 $_SESSION['CID'] = $key;
-                header('Location: ./index.php');
+                $namn = $value['name'];
+
+                echo "<script type='text/javascript'>alert('Välkommen $namn');
+                window.location.replace(\"index.php\")
+                </script>";
+                //header('Location: ./index.php');
             }
         }
         
