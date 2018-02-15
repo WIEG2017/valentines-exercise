@@ -17,8 +17,8 @@
 
     if(isset($_POST['remove']))
     {
-        print_r($_SESSION['fav'][$_POST['target']]);
+        unserialize($_SESSION['fav'][$_POST['target']])->removeFromArray($_SESSION['fav']);
     }
 
-    //header('Location: ' . $_SERVER['HTTP_REFERER']);
+    header('Location: ' . $_SERVER['HTTP_REFERER']);
 ?>

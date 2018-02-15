@@ -5,7 +5,7 @@
             {
                 foreach($_SESSION['fav'] as $fav)
                 {
-                    $fav->drawMe();
+                    unserialize($fav)->drawMe();
                 }
             }
         ?>
