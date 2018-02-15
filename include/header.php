@@ -22,7 +22,7 @@ include 'include/loginfunction.php';
                     <a href="array.php"class="link">Array</a>
                     <a href="#"class="link">Pension</a>
                     <a href="#"class="link">Blommor</a>
-                    <a href="#"class="link">Choklad</a>
+                    <a href="choklad.php"class="link">Choklad</a>
                     <a href="#"class="link">Kontakt</a>
                     <a href="#"class="link">Om oss</a>
                 </div>
