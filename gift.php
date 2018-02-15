@@ -10,18 +10,17 @@
     
 <?php
 function build_table($list) {
-
     $html = '<table>';
 
     $html .= '<tr>';
-    foreach($list[0] as $key=>$value){
+    foreach($list as $key=>$value){
         $html .= '<th>' . htmlspecialchars($key) . '</th>';
     }
     $html .= '</tr>';
 
     foreach( $list as $key=>$value){
         $html .= '<tr>';
-        foreach($value as $key2=>$value2){
+        foreach($value as $value2){
             $html .= '<td>' . htmlspecialchars($value2) . '</td>';
         }
         $html .= '</tr>';
@@ -38,13 +37,15 @@ function build_table($list) {
 //     echo "<img src= 'img/$picture.jpg'> <br>";
 //}
 
-$list = array (array ("title"=>"blommor", "price"=>"200kr", "img"=>"rosor"),
-                array("title"=>"mjukisdjur", "price"=>"150kr", "img"=>"nalle"), 
-                array("title"=>"smycken", "price"=>"700kr", "img"=>"smycken")
+$list = array(array("title"=>"blommor", "price"=>"200kr", "img"=>"rosor"),
+   array("title"=>"mjukisdjur", "price"=>"150kr", "img"=>"nalle"),
+  array("title"=>"smycken", "price"=>"700kr", "img"=>"smycken")
 );
-shuffle($list);
-foreach ($list as $picture) {
-    echo "<img src= 'img/$picture.jpg'> <br>";
+                
+
+
+foreach ($list as $item) {
+    echo "<img src= 'img/".$item['img'].".jpg'> <br>";
 // print_r(array_values($list));
 
 echo build_table($list);
