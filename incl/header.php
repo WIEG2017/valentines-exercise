@@ -24,7 +24,18 @@
                 <li><a href="about.php">Om Oss</a></li>
                 <li><a href="contact.php">Kontakt</a></li>
                 <li><a href="signup.php">Skapa Konto</a></li>
-                <li style="float:right; width: 10%;"><a class="active" href="login.php">Logga in</a></li>
+                <?php
+                if(isset($_SESSION['CID'])){
+                    echo "<form method='GET'><input class='buttonLogout' type='submit' name='loggaUt' value='Logga ut'/></form>";
+                if(isset($_GET['loggaUt'])) {
+                        unset($_SESSION['CID']);
+                        header('Location: ./index.php');
+                    }
+                //echo "<li style='float:right; width: 10%;'><a class='active' href='login.php'>Logga ut</a></li>";
+                } else {
+                    echo "<li style='float:right; width: 10%;'><a class='active' href='login.php'>Logga in</a></li>";
+                }
+                ?>
                 <li><a href="#">Medlemssida</a></li>
                 <li><a href="#">Kundvagn<?php
                     $temp = $theCart->getQuantities();

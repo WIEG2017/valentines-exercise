@@ -32,6 +32,21 @@ h2 {
     font-size: 12px;
 }
 
+.buttonLogout {
+    width: 100px;
+    height: 10%;
+    position: fixed;
+    top: 0px;
+    right:0px;
+    border: none;
+    background-color: pink;
+    color: white;
+    font-family: arial;
+    text-transform: uppercase;
+    font-size: 12px;
+    float: right;
+}
+
 .formLogin, .formSignup {
     padding-top: 30px;
     display: flex;
