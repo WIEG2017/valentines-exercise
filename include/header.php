@@ -1,3 +1,6 @@
+<?php
+session_start(); 
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,7 +30,7 @@
                         </div>
                     </div>
                 </li>
-                <li><a href="">Om Valentines day</a></li>
+                <li><a href="../pages/WhatisValDay.php">Om Valentines day</a></li>
                 <li><a href="pages/singelsidan.php">Singel-sidan</a></li>
                 <li><a href="">Kontakt</a></li>
                 <li><a href="">Om oss</a></li>
@@ -36,15 +39,15 @@
                     <div class="dropdown-content">
                         <div class="layer">
                             <form action="" method="post" id="favoritesList">
-                                <input type="checkbox" name="gifts">Present-tips</input></br>
-                                <input type="checkbox" name="movies">Film-tips</input></br>
-                                <input type="checkbox" name="restaurants">Restaurang-tips</input></br>
-                                <input type="checkbox" name="candies">Godis-tips</input></br>
-                                <input type="checkbox" name="aboutValentines">Om Valentines day</input></br>
-                                <input type="checkbox" name="Singel">Singel-sidan</input></br>
-                                <input type="checkbox" name="contact">Kontakt</input></br>
-                                <input type="checkbox" name="aboutUs">Om oss</input></br>
-                                <button type="submit">Spara</button>
+                                <input type="checkbox" name="checkFavorites[]" value="Present-tips">Present-tips</input></br>
+                                <input type="checkbox" name="checkFavorites[]" value="Film-tips">Film-tips</input></br>
+                                <input type="checkbox" name="checkFavorites[]" value="Restaurang-tips">Restaurang-tips</input></br>
+                                <input type="checkbox" name="checkFavorites[]" value="Godis-tips">Godis-tips</input></br>
+                                <input type="checkbox" name="checkFavorites[]" value="Om Valentines day">Om Valentines day</input></br>
+                                <input type="checkbox" name="checkFavorites[]" value="Singel-sidan">Singel-sidan</input></br>
+                                <input type="checkbox" name="checkFavorites[]" value="Kontakt">Kontakt</input></br>
+                                <input type="checkbox" name="checkFavorites[]" value="Om oss">Om oss</input></br>
+                                <input type="submit" name="submit" Value="Spara"/>
                             </form>
                         </div>
                     </div>

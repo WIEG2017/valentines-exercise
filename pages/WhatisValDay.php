@@ -1,6 +1,6 @@
 <?php
-    include 'include/header.php';
-    include 'include/functions.php';
+    include '../include/header.php';
+    include '../include/functions.php';
 ?>
 
 <?php
@@ -50,5 +50,5 @@ Den svenska skolan har alltmer fångat upp alla hjärtans dag. I en del svenska 
 
 
 <?php
-    include 'include/footer.php';
+    include '../include/footer.php';
 ?>
