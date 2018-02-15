@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0px;
     padding: 0px;
 }
@@ -222,17 +222,9 @@ li a {
 }
 
 footer {
-
-    left: 0;
-    bottom: 0;
     width: 100%;
     text-align: center;
     display: block;
-    background-color: rgb(215, 215, 215);
-    position: bottom;
-    right: 0;
-    
-   
 }
 
 .favorit {
@@ -247,6 +239,7 @@ footer {
     animation-name: example;
     animation-duration: 3.5s;
     animation-iteration-count: infinite;
+   
 
 }
 
