@@ -99,4 +99,21 @@
         }
         */
     }
+
+    class Favourite
+    {
+        private $title;
+        private $url;
+
+        public function __construct($pagetitle, $pageurl)
+        {
+            $this->title = $pagetitle;
+            $this->url = $pageurl;
+        }
+
+        public function drawMe()
+        {
+            echo '<a href="' . $this->url . '">' . $this->title .'</a><button>remove me</button>';
+        }
+    }
 ?>
