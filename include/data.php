@@ -25,19 +25,19 @@
         4 => array(
             'catgoryId'=>2,
             'name'=>'Presentask med 98 praliner',
-            'image'=>'./bilder/choklad3.jpg',
+            'image'=>'./bilder/choklad4.jpg',
             'description'=>'Den här luvliga choklad asken är super fin.',
             'price'=>1000
         ),
         5 => array(
             'catgoryId'=>2,
             'name'=>'Presentask med 30 praliner',
-            'image'=>'./bilder/choklad4.jpg',
+            'image'=>'./bilder/choklad5.jpg',
             'description'=>'Den här luvliga choklad asken är super fin.',
             'price'=>390
         ),
     );
-    
+
     $listOfEachFlower = array(
         // Här ska skapas classer när den är skapad
         1 => array(
