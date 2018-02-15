@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="../style/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:600" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600" rel="stylesheet"> 
     <title>Valentines Day</title>
 </head>
 <body>
@@ -24,7 +24,7 @@
                     <div class="dropdown-content">
                         <div class="layer">
                             <a href="#">Present-tips</a>
-                            <a href="#">Film-tips</a>
+                            <a href="../pages/filmtips.php">Film-tips</a>
                             <a href="#">Restaurang-tips</a>
                             <a href="#">Godis-tips</a>
                         </div>
