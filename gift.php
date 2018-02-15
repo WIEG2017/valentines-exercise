@@ -1,3 +1,8 @@
+<?php
+    session_start();    
+    include 'include/header.php';
+    include 'include/functions.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +13,11 @@
 </head>
 <body>
     
+<a href="https://www.euroflorist.se/alla-hjartans-dag-ct1693?gclid=EAIaIQobChMI_7y52L6l2QIVBswYCh0ONwbBEAAYASAAEgKlgfD_BwE&gclsrc=aw.ds"></a>
+<a href="https://www.nalleriet.se/alla-hjartans-dag-nallar/"></a>
+<a href="http://www.inovadesign.se/hogtider/alla-hjartans-dag/"></a>
+
+<!--Tabel-->
 <?php
 function build_table($list) {
     $html = '<table>';
@@ -37,21 +47,54 @@ function build_table($list) {
 //     echo "<img src= 'img/$picture.jpg'> <br>";
 //}
 
-$list = array(array("title"=>"blommor", "price"=>"200kr", "img"=>"rosor"),
-   array("title"=>"mjukisdjur", "price"=>"150kr", "img"=>"nalle"),
-  array("title"=>"smycken", "price"=>"700kr", "img"=>"smycken")
+//Array items
+$list = array(array("title"=>"blommor", "price"=>"200 kr", "img"=>"rosor", "href"=>"https://www.euroflorist.se/alla-hjartans-dag-ct1693?gclid=EAIaIQobChMI_7y52L6l2QIVBswYCh0ONwbBEAAYASAAEgKlgfD_BwE&gclsrc=aw.ds"),
+   array("title"=>"mjukisdjur", "price"=>"150 kr", "img"=>"nalle", "href"=>"https://www.nalleriet.se/alla-hjartans-dag-nallar/"),
+  array("title"=>"smycken", "price"=>"700 kr", "img"=>"smycken", "href"=>"http://www.inovadesign.se/hogtider/alla-hjartans-dag/")
 );
-                
+
+             
 
 
 foreach ($list as $item) {
     echo "<img src= 'img/".$item['img'].".jpg'> <br>";
+    
 // print_r(array_values($list));
 
+//Tabel för items
 echo build_table($list);
+
+echo '<table>';
+echo '<tr><th>title</td><td>price</td><td>img</td></tr>';
+foreach ($list as $item)  {
+    echo '<tr>';
+    echo '<td>'.$a[0].'</td>';
+    echo '<td>'.$b[1].'</td>';
+    echo '<td>'.$c[2].'</td>';
+    echo '<td>'.$d[3].'</td>';
+    echo '<tr>';
 }
+
+}
+echo '</table>';
 ?>
 
 
+<!--länkar i array-->
+<ul class="link">
+<?php foreach($list as $list_link) : ?>
+<li>
+<a href="<?php echo $list_link["href"]; ?>">
+<?php echo $list_link["title"]; ?>
+    </a>
+</li>
+
+<?php endforeach; ?>
+</ul>
+
+
 </body>
+<?php
+    include 'include/footer.php';
+?>
 </html>
