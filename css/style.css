@@ -195,3 +195,14 @@ li a {
 .active {
     background-color: pink;
 }
+
+footer {
+
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    display: block;
+    background-color: rgb(215, 215, 215);
+   
+}
