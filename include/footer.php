@@ -7,7 +7,7 @@
         <div id = "footer">
             <?php
             //$selectedFavorites = $_GET['favoritesList'];
-            print_r($_POST);
+         
 
         
             ?>
