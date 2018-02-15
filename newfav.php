@@ -1,7 +1,10 @@
 <?php
-    require 'incl/data.php';
-    require 'incl/classes.php';
     session_start();
+    if(!isset($mainLoaded))
+    {
+        require "incl/main.php";
+    }
+    $mainLoaded = true;
 
     if(isset($_POST['pagename']) && isset($_POST['pageurl']))
     {
@@ -11,6 +14,6 @@
             array_push($_SESSION['fav'], $newFave);
         }
     }
-    
+
     header('Location: ' . $_SERVER['HTTP_REFERER']);
 ?>

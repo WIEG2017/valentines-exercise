@@ -1,8 +1,11 @@
         <footer>
             <?php
-                foreach($_SESSION['fav'] as $fav)
+                if(isset($_SESSION['fav']))
                 {
-                    $fav->drawMe();
+                    foreach($_SESSION['fav'] as $fav)
+                    {
+                        $fav->drawMe();
+                    }
                 }
             ?>
             <p>Copyright WIEG17</p>

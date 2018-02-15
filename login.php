@@ -27,6 +27,8 @@
 
 <?php
    if($error) echo '<h2 style="color: red;">Användarnamn eller lösenord är fel!</h2>';
+
+   echo $_SERVER["REMOTE_ADDR"];
 ?>
 <form class='formLogin' method="POST">
    <input type="text" placeholder=" Email" name="email"/>
