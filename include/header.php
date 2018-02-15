@@ -27,11 +27,11 @@ include 'include/loginfunction.php';
                     <a href="omoss.php"class="link">Om oss</a>
                 </div>
                 <div class="cart"><a href="kassa.php"><i class="fa fa-shopping-cart fa-2x"></i></a></div>
-                <?php if($_SESSION['email']){
-                    echo "du är inloggad!";
+                <?php if($_SESSION['email']){                    
                     echo "<form  action='".$_SERVER["PHP_SELF"]."' method='post'>";
                     echo "<input type='hidden' name='delete' value='true' >";
-                    echo "<input type='submit' value='Logout'>";
+                    echo "du är inloggad! "." ";
+                    echo "<input type='submit' style='background-color: rgb(207, 41, 55);color: white;border:none;width: 80px;height: 20px;' value='Logout'>";
                     echo "</form>";} ?>
             <form method="post"  action="<?php echo $_SERVER["PHP_SELF"];?>">     
                 <div class="fav_form">
