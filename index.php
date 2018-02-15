@@ -7,7 +7,7 @@
 
 
 
-
+<img src='../img/frontBG.png'</img>
 
 
 
