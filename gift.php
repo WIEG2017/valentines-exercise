@@ -38,9 +38,6 @@ $list = array(array("title"=>"blommor", "price"=>"200 kr", "img"=>"rosor", "href
              
 
 
-foreach ($list as $item) {
-    echo "<img src= 'img/".$item['img'].".jpg'> <br>";
-    
 // print_r(array_values($list));
 
 //Tabel för items
@@ -52,31 +49,12 @@ foreach ($list as $item)  {
     echo '<tr>';
     echo '<td>'.$item["title"].'</td>';
     echo '<td>'.$item["price"].'</td>';
-    echo '<td>'.$item["img"].'</td>';
-    echo '<td>'.$item["href"].'</td>';
+    echo "<td><img class='imgGifts'src= 'img/".$item['img'].".jpg'></td>";
+    echo '<td><a href="'.$item["href"].'">Gå till butik</td>';
     echo '</tr>';
 }
 echo '</table>';
-}
-
-?>
 
 
-<!--länkar i array-->
-<ul class="link">
-<?php foreach($list as $list_link) : ?>
-<li>
-<a href="<?php echo $list_link["href"]; ?>">
-<?php echo $list_link["title"]; ?>
-    </a>
-</li>
-
-<?php endforeach; ?>
-</ul>
-
-
-</body>
-<?php
     include 'include/footer.php';
 ?>
-</html>
