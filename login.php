@@ -25,7 +25,7 @@
 <?php
    if($error) echo '<h2 style="color: red;">Användarnamn eller lösenord är fel!</h2>';
 ?>
-<form method="POST">
+<form class='formLogin' method="POST">
    <input type="text" placeholder=" Email" name="email"/>
    <input type="text" placeholder=" Password" name="password"/>
    <button class="loginButton" type="submit">Logga in</button>
