@@ -9,7 +9,7 @@
     
     if(isset($_GET['catid'])) {
         $catid = intval($_GET['catid']);
-        if(!isset($categories[$catid])) die(header('Location: ./produkter.php'));
+        if(empty($categories[$catid])) die(header('Location: ./produkter.php'));
         $array[$catid]['link'] = null;
         unset($_GET['catid']);
         
