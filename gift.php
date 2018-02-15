@@ -65,18 +65,18 @@ foreach ($list as $item) {
 echo build_table($list);
 
 echo '<table>';
-echo '<tr><th>title</td><td>price</td><td>img</td></tr>';
+echo '<tr><th>title</th><th>price</th><th>img</th></tr>';
 foreach ($list as $item)  {
     echo '<tr>';
-    echo '<td>'.$a[0].'</td>';
-    echo '<td>'.$b[1].'</td>';
-    echo '<td>'.$c[2].'</td>';
-    echo '<td>'.$d[3].'</td>';
-    echo '<tr>';
-}
-
+    echo '<td>'.$item["title"].'</td>';
+    echo '<td>'.$item["price"].'</td>';
+    echo '<td>'.$item["img"].'</td>';
+    echo '<td>'.$item["href"].'</td>';
+    echo '</tr>';
 }
 echo '</table>';
+}
+
 ?>
 
 
