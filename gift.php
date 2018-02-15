@@ -23,15 +23,15 @@ function build_table($list) {
     $html = '<table>';
 
     $html .= '<tr>';
-    foreach($list as $key=>$value){
-        $html .= '<th>' . htmlspecialchars($key) . '</th>';
+    foreach($list as $prod=>$blad){
+        $html .= '<th>' . htmlspecialchars($prod) . '</th>';
     }
     $html .= '</tr>';
 
-    foreach( $list as $key=>$value){
+    foreach( $list as $unit=>$nalle){
         $html .= '<tr>';
-        foreach($value as $value2){
-            $html .= '<td>' . htmlspecialchars($value2) . '</td>';
+        foreach($nalle as $ring){
+            $html .= '<td>' . htmlspecialchars($ring) . '</td>';
         }
         $html .= '</tr>';
     }
