@@ -26,10 +26,7 @@
     }
 
     
-    
-    new Flower(6)
-    new Flower(5)
-    new Flower(4)
+
 
 
 
