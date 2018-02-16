@@ -1,4 +1,3 @@
-<html>   
     <footer>
         <?php
             if(isset($_SESSION['fav']))
@@ -17,5 +16,6 @@
         <a href="./tos.php">Terms of Service</a>
 
     </footer>
+        </body>
 
 </html>
