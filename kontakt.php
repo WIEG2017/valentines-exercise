@@ -1,6 +1,6 @@
 <?php include 'include/header.php'; ?>
-    <div class="kontakt">  
     <h1>Kontakta oss</h1>
+    <div class="kontakt">      
     <img class="kontaktImg" src='./bilder/kontaktaoss.png' >
     <p>Öppettider</p>
     <p>Måndag – Fredag: 09.00-18.00</p>
