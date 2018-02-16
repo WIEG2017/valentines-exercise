@@ -21,7 +21,7 @@
                     <a href="javascript:void(0)" class="dropbtn">Valentines-tips</a>
                     <div class="dropdown-content">
                         <div class="layer">
-                            <a href="../pages/gift.php">Present-tips</a>
+                            <a href="../gift.php">Present-tips</a>
                             <a href="../pages/filmtips.php">Film-tips</a>
                             <a href="#">Restaurang-tips</a>
                             <a href="../pages/godistips.php">Godis-tips</a>
