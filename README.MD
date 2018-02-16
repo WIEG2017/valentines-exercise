@@ -4,10 +4,10 @@ Ni ska bygga en hemsida som man kan ha nytta av på, eller inför, alla hjärtan
 
 ## Generellt:
 
-- [ ] Sidan ska innehålla minst 10 php sidor som man kan besöka i webbläsaren
+- [x] Sidan ska innehålla minst 10 php sidor som man kan besöka i webbläsaren
 - [x] Alla sidor ska ha samma header och footer
 - [ ] Minst 2 av sidorna ska man vara tvungen att logga in först för att se (se inloggning längre ner)
-- [ ] Det ska finnas två styken specialsidor som jag bestämt nedan
+- [x] Det ska finnas två styken specialsidor som jag bestämt nedan
 
 ## Favoritsidor:
 - [x] Från headern ska man kunna markera vilken sida som helst som en "favorit", alla favoritsidor ska listas med länkar längst ner i footern.
