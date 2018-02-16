@@ -4,11 +4,12 @@
         require "incl/main.php";
     }
     $mainLoaded = true;
+    
+    if(!isset($_SESSION['CID'])) header('Location: ./login.php');
 
     $page_title = "Kundvagn";
     include "incl/header.php";
 
-    if(!isset($_SESSION['CID'])) header('Location: ./login.php');
 
     $items = $theCart->getItems();
 ?>

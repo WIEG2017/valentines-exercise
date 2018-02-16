@@ -38,7 +38,7 @@
                     if(isset($_SESSION['CID'])) echo "<a class='active' href='logout.php?url=".$curURL."'>Logga ut</a>";
                     else echo "<a class='active' href='login.php?url=".$curURL."'>Logga in</a>";                
                 ?></li>
-                <li><a href="#">Medlemssida</a></li>
+                <li><a href="medlem.php">Medlemssida</a></li>
                 <li><a href="kundvagn.php">Kundvagn<?php
                     $temp = $theCart->getQuantities();
                     if($temp) echo " ($temp)"; unset($temp);

@@ -15,7 +15,7 @@ Ni ska bygga en hemsida som man kan ha nytta av på, eller inför, alla hjärtan
 *Tips:* Ni bör använda klasser och $_Session till detta :)
 
 ## Specialsidor:
-- [ ] På en sida ska det finnas en tabell som skriver ut innehållet i en associativ array, exempelvis en produktlista eller en tidtabell.
+- [x] På en sida ska det finnas en tabell som skriver ut innehållet i en associativ array, exempelvis en produktlista eller en tidtabell.
 - [x] En sida ska innehålla en lång text, man ska kunna välja att visa sidan i ett "pensionärsläge" där texten blir jättestor och typsnittet mer lättläst.
 
 
