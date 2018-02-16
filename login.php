@@ -29,11 +29,13 @@
    if($error) echo '<h2>Användarnamn eller lösenord är fel!</h2>';
 
 ?>
+<wrapper>
 <form class='formLogin' method="POST">
    <input type="text" placeholder=" Email" name="email"/>
    <input type="text" placeholder=" Password" name="password"/>
    <button class="loginButton" type="submit">Logga in</button>
 </form>
+</wrapper>
 
 <!-- Här ska vi ha ren HTML kod! -->
 
