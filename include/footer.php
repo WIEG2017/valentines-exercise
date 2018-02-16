@@ -5,8 +5,8 @@
         </div> <!-- Avslutar div id content -->
 
         <div id = "footer">
-        <h3>VallyBally Company, established 2018.</h3><br/>
-        <h1>We love Love, especially Valentines Day ❤️</h1>
+        <h3>VallyBally Company, grundat 2018.</h3><br/>
+        <h1>Vi älskar Kärlek, speciellt Alla hjärtans Dag ❤️</h1>
         <div id="favoriter">
             <?php
             echo "<h2>Favoriter: </h2><br/>";

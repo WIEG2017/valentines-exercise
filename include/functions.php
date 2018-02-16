@@ -6,7 +6,7 @@ $logins = array(
     array("Martin Myrmarker", "martin@mail.se", 1234),
     array("Anton Petersson", "anton@mail.se", 1234),
     array("Louise", "louise@mail.se", 1234),
-    array("André", "Andre", 1234)
+    array("André", "andre@mail.se", 1234)
 );
 
 
@@ -30,7 +30,7 @@ function login($logins){
 }
 
 function loggedIn(){
-    if($_SESSION["userLoggedIn"] = true){
+    if($_SESSION["userLoggedIn"] == true){
         header('location: singelsidan.php');
         die();
     }else{
@@ -38,5 +38,3 @@ function loggedIn(){
         die();
     }
 }
-
-
