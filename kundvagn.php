@@ -4,12 +4,11 @@
         require "incl/main.php";
     }
     $mainLoaded = true;
-    
-    if(!isset($_SESSION['CID'])) header('Location: ./login.php');
 
     $page_title = "Kundvagn";
     include "incl/header.php";
 
+    if(!isset($_SESSION['CID'])) header('Location: ./login.php?url=kundvagn.php');
 
     $items = $theCart->getItems();
 ?>
@@ -26,8 +25,7 @@
             
             echo '<h2 class="row">Att betala: '.$theCart->totalPrice().' kr</h2>';
             
-            if(isset($_SESSION['CID'])) echo '<div class="row"><a class="addbtn" href="tack.php">Beställa</a></div>';
-            else echo '<div class="row"><a class="addbtn" href="login.php">Logga in</a></div>';
+            echo '<div class="row"><a class="addbtn" href="tack.php">Beställa</a></div>';
             
         } else echo '<h2 class="row" style="color: red;">Kundvagnen är tom!</h2>';
     ?>
