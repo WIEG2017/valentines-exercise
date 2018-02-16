@@ -1,8 +1,10 @@
 <?php 
 session_start(); 
 $title = 'Valentine';
+
 include 'include/loginfunction.php';
- ?>
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
