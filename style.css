@@ -95,6 +95,10 @@ h1{
    bottom: 0;
    width: 100%;
    height: 50px;
+   color: white;
+   font-size: 20px;
+   display: flex;
+   flex-direction: row;
 
 }
 .footer a{
@@ -105,4 +109,12 @@ h1{
 }
 button{
     margin-bottom: 55px;
+}
+.kontaktImg{
+    width: 70%;
+    height: 500px;
+}
+.kontakt{
+    margin-left: 20px;
+    margin-bottom: 100px;
 }
