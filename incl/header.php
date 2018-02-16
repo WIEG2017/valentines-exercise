@@ -17,6 +17,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
         <title>Valentines Day Shop ❣️ <?php if(isset($page_title)) { echo $page_title; } ?></title>
     </head>
     <body>
@@ -28,13 +29,16 @@
                 <li><a href="contact.php">Kontakt</a></li>
                 <li><a href="signup.php">Skapa Konto</a></li>
                 
+                
                 <li style='float:right; width: 10%;'><?php
                 if(isset($_SESSION['CID'])) echo "<a class='active' href='logut.php?url=".$curURL."'>Logga ut</a>";
                 else echo "<a class='active' href='login.php?url=".$curURL."'>Logga in</a>";
                 ?></li>
             
                 <li><a href="medlem.php">Medlemssida</a></li>
-                <li><a href="kundvagn.php">Kundvagn<?php
+                <li><a href="kundvagn.php">Kundvagn    
+                <?php
+               
                     $temp = $theCart->getQuantities();
                     if($temp) echo " ($temp)"; unset($temp);
                  ?></a></li>

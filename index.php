@@ -2,10 +2,10 @@
     include "incl/header.php";
 ?>
 
-
 <div class="hero-image">
     <img src="./images/Valentines-Day-Shop.jpg" alt="Valentines Day" height="" width="100%">
 </div>
+
 
 <!--
 <div class="hero-text">
