@@ -31,7 +31,7 @@
                 <li><a href="../pages/WhatisValDay.php">Om Valentines day</a></li>
                 <li><a href="../pages/singelsidanlogin.php">Singel-sidan</a></li>
                 <li><a href="">Kontakt</a></li>
-                <li><a href="">Om oss</a></li>
+                <li><a href="../pages/aboutus.php">Om oss</a></li>
                 <li class="dropdownList">
                     <a href="javascript:void(0)" class="dropbtn">Spara favoriter</a>
                     <div class="dropdown-content">

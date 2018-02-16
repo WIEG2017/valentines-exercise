@@ -28,10 +28,13 @@ function login($logins){
     
 
     for( $i = 0; $i < count($logins); $i++){
-        //$hello = $logins[$i][0];
+         
         
         if( $_POST["user"] == $logins[$i][1] and  $_POST["password"] == $logins[$i][2] ){
+            $hello = $logins[$i][0];
             $_SESSION["loginSingel"] = true;
+            $_SESSION["hellouser"] = $hello;
+           
             header("location: singelsidan.php");
    
         }
