@@ -23,7 +23,7 @@
                         <div class="layer">
                             <a href="../pages/gift.php">Present-tips</a>
                             <a href="../pages/filmtips.php">Film-tips</a>
-                            <a href="#">Restaurang-tips</a>
+                            <a href="../pages/restaurang.php">Restaurang-tips</a>
                             <a href="../pages/godistips.php">Godis-tips</a>
                         </div>
                     </div>
@@ -37,14 +37,14 @@
                     <div class="dropdown-content">
                         <div class="layer">
                             <form action="" method="post" id="favoritesList">
-                                <input type="checkbox" name="checkFavorites[]" value="Present-tips">Present-tips</input></br>
-                                <input type="checkbox" name="checkFavorites[]" value="Film-tips">Film-tips</input></br>
-                                <input type="checkbox" name="checkFavorites[]" value="Restaurang-tips">Restaurang-tips</input></br>
-                                <input type="checkbox" name="checkFavorites[]" value="Godis-tips">Godis-tips</input></br>
+                                <input type="checkbox" name="checkFavorites[]" value='<a href="../pages/gift.php">Present-tips</a>'>Present-tips</input></br>
+                                <input type="checkbox" name="checkFavorites[]" value='<a href="../pages/filmtips.php">Film-tips</a>'>Film-tips</input></br>
+                                <input type="checkbox" name="checkFavorites[]" value='<a href="../pages/restaurang.php">Restaurang-tips</a>'>Restaurang-tips</input></br>
+                                <input type="checkbox" name="checkFavorites[]" value='<a href="../pages/godistips.php">Godis-tips</a>'>Godis-tips</input></br>
                                 <input type="checkbox" name="checkFavorites[]" value='<a href="../pages/WhatisValDay.php">Om Valentines day</a>'>Om Valentines day</input></br>
                                 <input type="checkbox" name="checkFavorites[]" value='<a href="../pages/singelsidanlogin.php">Singel-sidan</a>'>Singel-sidan</input></br>
-                                <input type="checkbox" name="checkFavorites[]" value="Kontakt">Kontakt</input></br>
-                                <input type="checkbox" name="checkFavorites[]" value="Om oss">Om oss</input></br>
+                                <input type="checkbox" name="checkFavorites[]" value='<a href="../pages/contactinfo.php">Kontakt</a>'>Kontakt</input></br>
+                                <input type="checkbox" name="checkFavorites[]" value='<a href="../pages/aboutus.php">Om oss</a>'>Om oss</input></br>
                                 <input type="submit" name="submit" Value="Spara"/>
                             </form>
                         </div>
