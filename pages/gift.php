@@ -1,7 +1,7 @@
 <?php
     session_start();    
-    include 'include/header.php';
-    include 'include/functions.php';
+    include '../include/header.php';
+    include '../include/functions.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -34,12 +34,12 @@ foreach ($list as $item)  {
     echo '<tr>';
     echo '<td>'.$item["title"].'</td>';
     echo '<td>'.$item["price"].'</td>';
-    echo "<td><img class='imgGifts'src= 'img/".$item['img'].".jpg'></td>";
+    echo "<td><img class='imgGifts'src= '../img/".$item['img'].".jpg'></td>";
     echo '<td><a href="'.$item["href"].'">Gå till butik</td>';
     echo '</tr>';
 }
 echo '</table>';
 
 
-    include 'include/footer.php';
+    include '../include/footer.php';
 ?>
