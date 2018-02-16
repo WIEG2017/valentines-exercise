@@ -9,8 +9,9 @@
     
     $theCart = new Cart();
     
+    $query  = array();
     $curURL = parse_url($_SERVER['REQUEST_URI']);    
-    parse_str($curURL['query'], $query);
+    if(isset($curURL['query'])) parse_str($curURL['query'], $query);
     $curURL = explode('/', $curURL['path']);
     $curURL = end($curURL);
     $curURL = ($curURL == 'login.php') ? $query['url'] : $curURL; unset($query['url']);
@@ -43,7 +44,6 @@
                 <li><a href="medlem.php">Medlemssida</a></li>
                 <li><a href="kundvagn.php">Kundvagn    
                 <?php
-               
                     $temp = $theCart->getQuantities();
                     if($temp) echo " ($temp)"; unset($temp);
                  ?></a></li>
@@ -65,5 +65,3 @@
             ?>
         </header>
             <div id='content'>
-
-
