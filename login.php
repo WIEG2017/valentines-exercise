@@ -16,8 +16,8 @@
                 $ip = $_SERVER['REMOTE_ADDR'];
 
                 echo "<script type='text/javascript'>alert('Välkommen $namn, ditt ip: $ip');
-                window.location.replace(\"index.php\")
-                </script>";
+                window.location.replace(\"".$_GET['url']."\")
+            </script>";
             }
         }
         
