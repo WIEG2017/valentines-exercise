@@ -2,7 +2,7 @@
     $page_title = "Members";
     include "incl/header.php";
 ?>
-
+<tableWrapper>
     <table>
         <tr>
             <th>Email</th>
@@ -22,6 +22,7 @@
             }
         ?>
     </table>
+        </tableWrapper>
 
 <?php
     include "incl/footer.php";

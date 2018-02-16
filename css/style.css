@@ -276,3 +276,19 @@ footer {
     0%   {color: black; background-color: white; left:0px; top:0px;}
 }
 
+
+/*CSS för member.php*/
+
+th {
+    color: black;
+}
+
+td {
+    color:#D84646;
+    
+}
+
+tableWrapper {
+    display: flex; 
+    justify-content: center;
+}
