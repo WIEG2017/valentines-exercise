@@ -9,10 +9,10 @@
     </h3>
 </div>
 <div class="row">
-    <div class="col-md-7 map-holder">
+    <div class="map-holder">
         <iframe width="100%" height="100%" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ2WUtn33zT0YR2uKjp362ry8&key=AIzaSyAlEpssURhMe60k5kkrTzRsf5ROXtZfQqc" allowfullscreen></iframe>
     </div>
-    <div class="col-md-5">
+    <div class="message">
         <h4>
             <strong>Leave us a message</strong>
         </h4>
