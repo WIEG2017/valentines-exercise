@@ -1,7 +1,7 @@
 <?php
      session_start();    
-    // include 'include/header.php';
-    // include 'include/functions.php';
+     include 'include/header.php';
+     include 'include/functions.php';
 ?>
 
 <!DOCTYPE html>
@@ -76,5 +76,5 @@ VÅR AMBITION ÄR ATT SERVERA DEN BÄSTA MATEN, DET BÄSTA VINET OCH GE DEN ABSO
 
 
 <?php
-    // include 'include/footer.php';
+     include 'include/footer.php';
 ?>
