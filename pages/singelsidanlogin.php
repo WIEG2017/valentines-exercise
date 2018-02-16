@@ -2,14 +2,10 @@
    
     
     include '../include/data.php';
-    
+   
     login($logins);
-
     
     include '../include/header.php';
-    
-  
-    
 
     
 ?>
@@ -22,12 +18,6 @@
             <button class = "login" type = "submit">Login</button>
         </form>
     </div>    
-
-<?php
-    
-   
- ?>
-
 
 
 

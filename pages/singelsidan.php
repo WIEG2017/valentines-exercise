@@ -1,20 +1,20 @@
 <?php
 
         
+        
         include '../include/data.php';
         
         include '../include/header.php';
-  
+        
        
         $userName = $_SESSION['hellouser'];
         $ip = $_SERVER['REMOTE_ADDR'];
-        if (isset($_SESSION['FirstVisit'])) {
-            echo "<script type='text/javascript'>alert('Välkommen $userName med ip: $ip ');</script>";
+        if (!isset($_SESSION['FirstVisit'])) {
             $_SESSION['FirstVisit'] = 1;
-    
+            echo "<script type='text/javascript'>alert('Välkommen $userName med ip: $ip ');</script>";
+
         }
-        
-        
+     
         
 ?>
 <form action = "../include/logout.php" method = "post">
