@@ -1,14 +1,20 @@
 <?php
+    session_start();
+    
     if(!isset($mainLoaded))
     {
         require "incl/main.php";
     }
     $mainLoaded = true;
-    session_start();
+    
     $theCart = new Cart();
-
-    $curURL = explode('/', $_SERVER['REQUEST_URI']);
+    
+    $curURL = parse_url($_SERVER['REQUEST_URI']);    
+    parse_str($curURL['query'], $query);
+    $curURL = explode('/', $curURL['path']);
     $curURL = end($curURL);
+    $curURL = ($curURL == 'login.php') ? $query['url'] : $curURL; unset($query['url']);
+    if(count($query)) $curURL .= "?".array_keys($query)[0]."=".reset($query);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -31,10 +37,9 @@
                 
                 
                 <li style='float:right; width: 10%;'><?php
-                if(isset($_SESSION['CID'])) echo "<a class='active' href='logut.php?url=".$curURL."'>Logga ut</a>";
-                else echo "<a class='active' href='login.php?url=".$curURL."'>Logga in</a>";
+                    if(isset($_SESSION['CID'])) echo "<a class='active' href='logout.php?url=".$curURL."'>Logga ut</a>";
+                    else echo "<a class='active' href='login.php?url=".$curURL."'>Logga in</a>";                
                 ?></li>
-            
                 <li><a href="medlem.php">Medlemssida</a></li>
                 <li><a href="kundvagn.php">Kundvagn    
                 <?php
@@ -59,5 +64,6 @@
                 }
             ?>
         </header>
+            <div id='content'>
 
 
