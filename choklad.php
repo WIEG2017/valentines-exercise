@@ -3,10 +3,14 @@
     include 'include/header.php';
     include 'include/loginfunction.php';
     include 'include/data.php';
+<<<<<<< HEAD
     if($_POST['email']){
       $msg = "you are logged in with this ip address : ".$_SESSION['ip']."\\n and this email : ".$_SESSION['email'].".";
       echo "<script type='text/javascript'>alert('$msg');</script>";
   }
+=======
+ 
+>>>>>>> 5f5b7513b446703e761cdb0ddc630e9430fb3116
     if($_SESSION['email']){
       foreach($listofEachChoclate as $key=>$array){
         echo "<div>";
@@ -14,15 +18,26 @@
         echo "<img src=".$array["image"].">";
         echo "<p>$array[description]</p>";
         echo "<h2>$array[price] kr</h2>";
-        echo "<button>Lägg i varukorg</button>";
+        echo '<button onclick=\'showProduct()\'>Lägg i varukorg</button>';
         echo "</div>";
-      }
-    }else{
-      include 'include/login.php'; 
-    }
-
-
+      }}
 ?>
-<?php 
+
+<script>
+    function showProduct(){
+        alert(<?php echo "'hej'"; ?>);
+    }
+</script>
+    blomma.php?username=anders&password=1234
+    
+
+<?php
+
+/*
+    
+    }else{
+        alert("hej")'
+      include 'include/login.php'; 
+    }*/ 
 include 'include/footer.php';
  ?>
