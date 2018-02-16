@@ -42,7 +42,7 @@
             <?php
                 if(isset($page_title))
                 {
-                    echo "<form method='POST' action='newfav.php'>";
+                    echo "<form method='POST' action='favFunctions.php'>";
                     $currentURL = $_SERVER['REQUEST_URI'];
                     if($currentURL == "/")
                     {
