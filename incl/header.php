@@ -60,5 +60,6 @@
                 }
             ?>
         </header>
+            <div id='content'>
 
 
