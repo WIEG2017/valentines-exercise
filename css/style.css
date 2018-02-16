@@ -8,7 +8,6 @@ html {
     margin: 0px;
     padding: 0px;
     min-width: 100%;
-    
 }
 
 /* Place text in the middle of the image */
@@ -125,6 +124,7 @@ wrapper {
     min-width: 200px; color: #333;
     transition: 0.25s;
     box-shadow: none;
+    box-shadow: 10px 10px 5px grey;
 }
 
 .item:hover {
