@@ -27,8 +27,8 @@ include 'include/loginfunction.php';
                     <a href="choklad.php"class="link">Choklad</a>
                     <a href="kontakt.php"class="link">Kontakt</a>
                     <a href="omoss.php"class="link">Om oss</a>
+                    <a href="kassa.php"><i class="fa fa-shopping-cart fa-2x"></i></a>
                 </div>
-                <div class="cart"><a href="kassa.php"><i class="fa fa-shopping-cart fa-2x"></i></a></div>
                 <?php if($_SESSION['email']){                    
                     echo "<form  action='".$_SERVER["PHP_SELF"]."' method='post'>";
                     echo "<input type='hidden' name='delete' value='true' >";
