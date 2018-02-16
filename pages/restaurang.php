@@ -27,7 +27,7 @@
 ?>
 
 <?php
-$image_name = 'ottomania-3.jpg';
+$image_name = '/pages/ottomania-3.jpg';
 $image_url = 'http://ottomania.se/?utm_source=thatsup&utm_medium=referral';
 ?>
 
