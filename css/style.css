@@ -87,6 +87,7 @@ wrapper {
     flex-flow: row wrap;
     justify-content: center;
     margin-bottom: 30px;
+   min-height: 300px;
     
 }
 
