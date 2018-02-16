@@ -143,3 +143,21 @@ h1{
     width: 150px;
 }
 
+
+.logout{
+    margin-left:50vw;
+    margin-top:10px;
+    background-color:#f11754;
+    height:40px;
+    width:80px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+.logout:hover{
+    background-color:#ae0086;
+    color:blue;
+}
+
+

@@ -18,7 +18,7 @@
         
 ?>
 <form action = "../include/logout.php" method = "post">
-    <button type= "submit" name="logout" value = "true" class = "logout">Logga ut</button>
+    <button class = "logout" type= "submit" name="logout" value = "true" >Logga ut</button>  
 </form>    
 <div class="container">
     <div class="row">
