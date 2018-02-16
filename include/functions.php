@@ -9,20 +9,8 @@ $logins = array(
     array("André", "Andre", 1234)
 );
 
-function writeLogin($logins){
-    for( $i = 0; $i < count($logins); $i++){
-        if( $_POST["user"] == $logins[$i][1] and  $_POST["password"] == $logins[$i][2] ){
-         
-   
-        
-        $hello = $logins[$i][0];
-        $ip = $_SERVER['REMOTE_ADDR'];
-        echo "<script type='text/javascript'>alert('Välkommen $hello');</script>";
-      
 
-        }
-    }
-}
+
 
 function login($logins){
     
@@ -30,10 +18,10 @@ function login($logins){
     for( $i = 0; $i < count($logins); $i++){
          
         
-        if( $_POST["user"] == $logins[$i][1] and  $_POST["password"] == $logins[$i][2] ){
-            $hello = $logins[$i][0];
+        if( $_POST["user"] == $logins[$i][1] and  $_POST["password"] == $logins[$i][2]){
             $_SESSION["loginSingel"] = true;
-            $_SESSION["hellouser"] = $hello;
+            $_SESSION["hellouser"] = $logins[$i][0];
+            $_SESSION["userLoggedIn"] = true;
            
             header("location: singelsidan.php");
    
@@ -41,4 +29,8 @@ function login($logins){
     }    
 }
 
-
+function loggedIn(){
+    if($_SESSION["userLoggedIn"] = true){
+        header('location: singelsidan.php');
+    }
+}

@@ -1,10 +1,16 @@
-    <?php
-        include '../include/header.php';
-        include '../include/functions.php';
-       
-      
-    ?>
+<?php
+        include '../include/data.php';
 
+        include '../include/header.php';
+  
+        $userName = $_SESSION['hellouser'];
+        $ip = $_SERVER['REMOTE_ADDR'];
+        echo "<script type='text/javascript'>alert('Välkommen $userName med ip: $ip ');</script>";
+ 
+?>
+<form method = "post">
+    <button type= "submit" class = "logout">Logga ut</button>
+</form>    
 <div class="container">
     <div class="row">
     <div class="col-sm-4">
