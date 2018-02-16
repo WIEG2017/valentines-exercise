@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="../style/style.css">
+    <link rel="stylesheet" type="text/css" href="/style/style.css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600" rel="stylesheet"> 
     <title>Valentines Day</title>
 </head>
@@ -30,7 +30,7 @@
                 </li>
                 <li><a href="../pages/WhatisValDay.php">Om Valentines day</a></li>
                 <li><a href="../pages/singelsidanlogin.php">Singel-sidan</a></li>
-                <li><a href="">Kontakt</a></li>
+                <li><a href="../pages/contactus.php">Kontakt</a></li>
                 <li><a href="../pages/aboutus.php">Om oss</a></li>
                 <li class="dropdownList">
                     <a href="javascript:void(0)" class="dropbtn">Spara favoriter</a>
