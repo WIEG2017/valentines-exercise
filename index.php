@@ -7,14 +7,13 @@
 </div>
 
 
-<!--
 <div class="hero-text">
     <h1>Valentines Day Shop</h1>
     <p>Köp presenter till din älskling</p>
     <button>Tryck här typ</button>
+    <br><br><br><br><br>
 </div>
 
--->
 
 <?php
     include "incl/footer.php";

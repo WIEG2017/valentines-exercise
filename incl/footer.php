@@ -12,7 +12,6 @@
         
             <p>Copyright WIEG17</p>
             <p>Contact information: Medieinstitutet</p>
-            <img src="images/logo.png" alt="ValentinesSchool" style="width: 5%; height: 5%;">
             <p>valentines@example.com</p>
             <a href="./tos.php">Terms of Service</a>
 
