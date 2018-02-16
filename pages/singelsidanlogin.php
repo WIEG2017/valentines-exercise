@@ -1,12 +1,14 @@
 <?php
-    if(!isset($mainAlreadyIncluded)){
-        session_start(); 
+   
     
-    include '../include/functions.php';
+    include '../include/data.php';
+    
     login($logins);
+
+    
     include '../include/header.php';
-    }
-    $mainAlreadyIncluded = true;
+    
+  
     
 
     
