@@ -13,20 +13,24 @@
         echo "<h2>$array[price] kr</h2>";
         echo '<button onclick=\'showProduct()\'>Lägg i varukorg</button>';
         echo "</div>";
-      }
+      }}
+?>
 
+<script>
     function showProduct(){
-        echo 'alert("hej")';
+        alert(<?php echo "'hej'"; ?>);
     }
+</script>
+    blomma.php?username=anders&password=1234
+    
+
+<?php
+
+/*
     
     }else{
+        alert("hej")'
       include 'include/login.php'; 
-    }
-
-    
-   
-
-?>
-<?php 
+    }*/ 
 include 'include/footer.php';
  ?>
