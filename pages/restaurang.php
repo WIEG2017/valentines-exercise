@@ -29,11 +29,11 @@
 <?php
 $image_name = '/pages/ottomania-3.jpg';
 $image_url = 'http://ottomania.se/?utm_source=thatsup&utm_medium=referral';
+echo 'hej!';
 ?>
 
 <a href='<?php echo $image_url; ?>' border='0'><img src'<?php echo $image_name; ?>'></a>
-</body>
-</html>
+
 
 
 
