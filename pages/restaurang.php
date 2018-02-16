@@ -14,10 +14,10 @@
 </head>
 <body>
 
-<a href="http://ottomania.se/?utm_source=thatsup&utm_medium=referral"></a>
+<!-- <a href="http://ottomania.se/?utm_source=thatsup&utm_medium=referral"></a>
 <a href="http://restaurangmeet.se/wordpress/home/"></a>
 <a href="http://www.rumi.se/?utm_source=thatsup&utm_medium=referral"></a>
-<a href="http://www.dorsia.se/?utm_source=thatsup&utm_medium=referral"></a>
+<a href="http://www.dorsia.se/?utm_source=thatsup&utm_medium=referral"></a> -->
     
 <?php 
 // echo '<a href="http://ottomania.se/?utm_source=thatsup&utm_medium=referral"><img src="ottomania-3.jpg" /></a>';
@@ -27,7 +27,7 @@
 ?>
 
 <?php
-$image_name = 'ottomania-3.jpg';
+$image_name = '/img/ottomania-3.jpg';
 $image_url = 'http://ottomania.se/?utm_source=thatsup&utm_medium=referral';
 ?>
 
