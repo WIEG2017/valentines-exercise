@@ -16,7 +16,7 @@
         <form id = "singelS" method="POST">
             <h4>Användarnamn:</h4><input type = "text" name = "user"></br>
             <h4>Lösenord:</h4><input type = "password" name = "password"></br></br>
-            <button class = "login" type = "submit">Login</button>
+            <button class = "login" type = "submit" name="login">Login</button>
         </form>
     </div>    
 

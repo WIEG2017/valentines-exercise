@@ -14,19 +14,20 @@ $logins = array(
 
 function login($logins){
     
-
-    for( $i = 0; $i < count($logins); $i++){
-         
-        
-        if( $_POST["user"] == $logins[$i][1] and  $_POST["password"] == $logins[$i][2]){
-            $_SESSION["loginSingel"] = true;
-            $_SESSION["hellouser"] = $logins[$i][0];
-            $_SESSION["userLoggedIn"] = true;
-           
-            header("location: singelsidan.php");
-            die();
-        }
-    }    
+    if(isset($_POST['login'])){
+        for( $i = 0; $i < count($logins); $i++){
+            
+            
+            if( $_POST["user"] == $logins[$i][1] and  $_POST["password"] == $logins[$i][2]){
+                $_SESSION["loginSingel"] = true;
+                $_SESSION["hellouser"] = $logins[$i][0];
+                $_SESSION["userLoggedIn"] = true;
+            
+                header("location: singelsidan.php");
+                die();
+            }
+        }  
+    }  
 }
 
 function loggedIn(){
