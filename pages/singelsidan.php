@@ -1,15 +1,24 @@
 <?php
-        include '../include/data.php';
 
+        
+        include '../include/data.php';
+        
         include '../include/header.php';
   
+       
         $userName = $_SESSION['hellouser'];
         $ip = $_SERVER['REMOTE_ADDR'];
-        echo "<script type='text/javascript'>alert('Välkommen $userName med ip: $ip ');</script>";
- 
+        if (isset($_SESSION['FirstVisit'])) {
+            echo "<script type='text/javascript'>alert('Välkommen $userName med ip: $ip ');</script>";
+            $_SESSION['FirstVisit'] = 1;
+    
+        }
+        
+        
+        
 ?>
-<form method = "post">
-    <button type= "submit" class = "logout">Logga ut</button>
+<form action = "../include/logout.php" method = "post">
+    <button type= "submit" name="logout" value = "true" class = "logout">Logga ut</button>
 </form>    
 <div class="container">
     <div class="row">

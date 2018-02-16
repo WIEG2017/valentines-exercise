@@ -2,7 +2,7 @@
    
     
     include '../include/data.php';
-    loggedIn();
+    
     login($logins);
 
     
