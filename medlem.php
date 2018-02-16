@@ -1,6 +1,7 @@
 <?php
     $page_title = "Members";
     include "incl/header.php";
+    if(!isset($_SESSION['CID'])) header('Location: ./login.php?url=medlem.php');
 ?>
 <div class="tableWrapper">
     <table>
@@ -22,7 +23,7 @@
             }
         ?>
     </table>
-        </div>
+</div>
 
 <?php
     include "incl/footer.php";
