@@ -1,7 +1,7 @@
 <?php
-    // session_start();    
-    // include 'include/header.php';
-    // include 'include/functions.php';
+     session_start();    
+     include '../include/header.php';
+     include '../include/functions.php';
 ?>
 
 <!DOCTYPE html>
@@ -119,5 +119,5 @@ p{
 
 
 <?php
-    // include 'include/footer.php';
+     include '../include/footer.php';
 ?>

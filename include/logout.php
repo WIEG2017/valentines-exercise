@@ -1,8 +1,11 @@
 <?php
+session_start();
+
 if($_POST["logout"] = true){
             
-    $_SESSION['userLoggerIn'] = false;
+    $_SESSION['userLoggedIn'] = false;
     unset($_POST["logout"]);
-    header('location: ../pages/singelsidanlogin.php');
+    unset($_SESSION['FirstVisit']);
+    header('location: ../pages/singelsidanlogin.php'); 
     die();
 }
