@@ -88,3 +88,21 @@ h1{
 
     
 }
+.footer{
+   background-color:rgb(145, 38, 47);  
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 50px;
+
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+button{
+    margin-bottom: 55px;
+}

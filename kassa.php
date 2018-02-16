@@ -8,3 +8,6 @@ if($_SESSION['email']){
   include 'include/login.php'; 
 }
 ?>
+<?php 
+include 'include/footer.php';
+ ?>
