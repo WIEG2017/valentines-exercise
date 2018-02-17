@@ -21,6 +21,11 @@
             'password' => 'faroch'
         )
     );
+
+    if(!isset($_SESSION["customers"]))
+    {
+        $_SESSION["customers"] = $customers;
+    }
     
     $categories = array(
         1 => 'Nallar',

@@ -9,15 +9,14 @@
         $_POST['email']    = strtolower($_POST['email']);
         $_POST['password'] = strtolower($_POST['password']);
 
-        foreach($customers as $key => $value) {
+        foreach($_SESSION['customers'] as $key => $value) {
             if(($value['email'] == $_POST['email']) && ($value['password'] == $_POST['password'])) {
                 $_SESSION['CID'] = $key;
                 $namn = $value['name'];
                 $ip = $_SERVER['REMOTE_ADDR'];
 
-                echo "<script type='text/javascript'>alert('Välkommen $namn, ditt ip: $ip');
-                window.location.replace(\"".$_GET['url']."\")
-            </script>";
+                echo "<script type='text/javascript'>alert('Välkommen $namn, ditt ip: $ip'); window.location.replace(\"".$_GET['url']."\");</script>";
+                break;
             }
         }
         
