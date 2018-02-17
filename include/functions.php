@@ -30,12 +30,3 @@ function login($logins){
     }  
 }
 
-function loggedIn(){
-    if($_SESSION["userLoggedIn"] == true){
-        header('location: singelsidan.php');
-        die();
-    }else{
-        header('location: singelsidanlogin.php');
-        die();
-    }
-}

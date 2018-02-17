@@ -1,10 +1,15 @@
 <?php
-    session_start();    
-   
+    session_start();
+    if(isset($_SESSION["loginSingel"])){
+        header('location: singelsidan.php');
+      
+    }
     
     include '../include/data.php';
-   
+    
     login($logins);
+    
+    
     
     include '../include/header.php';
 
