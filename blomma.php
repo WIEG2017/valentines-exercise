@@ -13,7 +13,10 @@
         $_SESSION['shop'] =$array;
     }
 
-     
+    if($_POST['email']){
+        $msg = "you are logged in with this ip address : ".$_SESSION['ip']."\\n and this email : ".$_SESSION['email'].".";
+        echo "<script type='text/javascript'>alert('$msg');</script>";
+    }
     if($_SESSION['email']){
       foreach($listOfEachFlower as $key=>$array){
         echo "<div>";

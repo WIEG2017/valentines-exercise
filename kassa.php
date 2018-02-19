@@ -15,6 +15,10 @@ if($_SESSION['email']){
    echo ($flower['name']);
 
   }
+  foreach($_SESSION['shop'] as $typeofChocolate){
+    $chocolate = $listofEachChoclate[$typeofChocolate];
+    echo ($chocolate['name']);
+  }
 
 
 }else{
