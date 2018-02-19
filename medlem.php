@@ -11,7 +11,7 @@
             <th>Password</th>
         </tr>
         <?php
-            foreach($customers as $customer)
+            foreach($_SESSION["customers"] as $customer)
             {
                 echo "<tr>";
 
