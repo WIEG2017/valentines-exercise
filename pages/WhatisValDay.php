@@ -11,7 +11,7 @@ if(isset($_POST['pension'])) {
     die('ooops');
 };
 
-echo "<form action='WhatisValDay2.php' METHOD'POST'>";
+echo "<form class='ReadBtn' action='WhatisValDay2.php' METHOD'POST'>";
 
 echo "<input type='submit' name='text' value='Pensionärsläge'><br>";
 
@@ -28,9 +28,9 @@ Förebilden kom från USA under 1900-talet och firandet har växt de senaste dec
 I anglosaxisk tradition har dagen större betydelse än här. Den går tillbaka på medeltida vårfester, där flickor och pojkar på lek parades samman inför våren.
 </p><br/>";
 
-echo "<img src='/img/valday.jpg'></img>";
+echo "<img src='/img/valday.jpg'></img><br/>";
 
-echo "<p>Alla hjärtans dag är en kalendarisk högtid som är ny i Sverige och Norden, trots att den har medeltida ursprung. Dagens namn är Valentin efter ett romerskt helgon, om vilket inte mycket är känt. Anledningen till att han är ihågkommen i vår tid är att 14 februari på medeltiden ansågs vara den dag då fåglarna bildade par. I England och Frankrike utsågs byns pojkar och flickor till låtsaspar för ett år på Valentindagen.
+echo "<br/><p>Alla hjärtans dag är en kalendarisk högtid som är ny i Sverige och Norden, trots att den har medeltida ursprung. Dagens namn är Valentin efter ett romerskt helgon, om vilket inte mycket är känt. Anledningen till att han är ihågkommen i vår tid är att 14 februari på medeltiden ansågs vara den dag då fåglarna bildade par. I England och Frankrike utsågs byns pojkar och flickor till låtsaspar för ett år på Valentindagen.
 
 Det har lett till att Valentine’s Day har varit en romantikens dag i England ända sedan medeltiden. De första mångfaldigade Valentinkorten dök upp i England på 1400-talet, och under 1700-talet såldes kommersiellt framställda kort. Man såg också denna dag som vårens första dag.
 
