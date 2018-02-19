@@ -13,17 +13,20 @@
         $_SESSION['shop'] =$array;
     }
 
-     
+    if($_POST['email']){
+        $msg = "you are logged in with this ip address : ".$_SESSION['ip']."\\n and this email : ".$_SESSION['email'].".";
+        echo "<script type='text/javascript'>alert('$msg');</script>";
+    }
     if($_SESSION['email']){
       foreach($listOfEachFlower as $key=>$array){
-        echo "<div>";
+        echo "<div id='productCard'>";
         echo "<h1>$array[name]</h1>";
         echo "<img src=".$array["image"].">";
         echo "<p>$array[description]</p>";
         echo "<h2>$array[price] kr</h2>";
         echo "<form action='".$_SERVER["PHP_SELF"]."'' methood='get'>";
         echo "<input type='hidden' name='id' value=".$array["catgoryId"].">";
-        echo "<input type='submit' value='shop'>";
+        echo "<input type='submit' value='Lägg i Varukorgen'>";
         echo "</form>";
         echo "</div>";
       }

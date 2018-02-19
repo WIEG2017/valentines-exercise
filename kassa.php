@@ -8,12 +8,21 @@ if($_POST['email']){
   echo "<script type='text/javascript'>alert('$msg');</script>";
 }
 if($_SESSION['email']){
-  echo "du är inloggad";
+  
   foreach($_SESSION['shop'] as $typeOfFlower){
 
    $flower = $listOfEachFlower[$typeOfFlower];
+   echo "<div id='shopCard'>";
    echo ($flower['name']);
+   echo "</div>";
 
+  }
+  foreach($_SESSION['shop'] as $typeofChocolate){
+    $chocolate = $listofEachChoclate[$typeofChocolate];
+
+    echo "<div id='shopCard'>";
+    echo ($chocolate['name']);
+    echo "</div>";
   }
 
 

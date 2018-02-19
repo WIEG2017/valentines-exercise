@@ -88,7 +88,36 @@ h1{
     padding-top: 60px;
 }
 
+#productCard{
+    background-color:white;
+    margin: auto;
+    width: 800px;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
     
+}
+
+#productCard img{
+    width: 400px;
+}
+
+#productCard input{
+    background-color: rgb(0, 102, 60);
+    color: white;
+    border: none;
+    padding: 1em;
+}
+
+#shopCard{
+    margin: auto;
+    width: 500px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 .footer{
    background-color:rgb(145, 38, 47);  
