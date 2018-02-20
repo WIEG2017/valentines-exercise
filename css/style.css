@@ -1,0 +1,331 @@
+
+html {
+   
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+
+}
+    body {
+    margin: 0px;
+    padding: 0px;
+    min-width: 100%;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+   
+    text-align: center;
+
+}
+
+/*CSS för login-sida och signup-sida*/
+input {
+    width: 300px;
+    height: 30px;
+    margin: 10px;
+}
+
+h2 {
+    color: red;
+}
+
+.loginButton, .signupButton, .buttonStorText {
+    width: 200px;
+    height: 35px;
+    margin: auto;
+    border: none;
+    background-color: rgb(187, 87, 101);
+    color: white;
+    font-family: times;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.buttonLogout {
+    width: 150px;
+    height: 46px;
+    position: fixed;
+    top: 0px;
+    right:0px;
+    margin: 0px;
+    border: none;
+    background-color: pink;
+    color: white;
+    font-family: times;
+    font-size: 16px;
+    float: right;
+}
+
+.formLogin, .formSignup {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(245, 238, 243, 0.7);
+    width: 350px;
+    height: 250px;
+}
+
+wrapper {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* CSS för produkter- och produktsidan */
+* {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+.content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+   min-height: 300px;
+    
+}
+
+.row {
+    flex: 1 100%; display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    max-width: 1280px;
+    padding: 10px;
+    
+}
+
+.row .column {
+    width: 50%;
+    padding-top: 10px;
+    text-align: center;
+    
+}
+
+.row .column img { 
+    width: 100%;
+    max-width: 450px;
+}
+
+.catlink {
+    color: blue;
+    text-decoration: none;
+}
+
+.item {
+    flex: 1 23%;
+    border: 1px #ccc solid;
+    border-radius: 3px; padding: 3px;
+    margin: 1%; max-width: 275px !important;
+    min-width: 200px; color: #333;
+    transition: 0.25s;
+    box-shadow: none;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.item:hover {
+    transition: 0.25s;
+    box-shadow: 3px 3px 6px 0px rgba(200, 200, 200, 0.85);
+}
+
+.item img {
+    width: 100%;
+}
+
+.pname, .pprice {
+    display: inline-block;
+    width: 90%; margin: 3%;
+    vertical-align: top;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.pprice {
+    color: red;
+    margin: 1% 3%;
+}
+
+.price {
+    color: red;
+    font-size: 2em;
+    margin: 25px auto;
+}
+
+.gray {
+    color: #666;
+    line-height: 1.5;
+}
+
+.addbtn {
+    margin: 0px auto;
+    margin-top: 25px;
+    font-size: 1.5em;
+    width: 200px;
+    padding: 10px; color: #fff;
+    background-color: darkgreen;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: 0.25s;
+    text-decoration: none;
+    text-align: center;
+}
+
+.addbtn:hover {
+    transition: 0.25s;
+    background-color: #0a440a;
+}
+/* End of CSS för produkter- och produktsidan */
+
+/* CSS för about.php*/
+
+.textStor {
+    font-size: 25px;
+    max-width: 960px;
+    line-height: 200%;
+}
+
+.buttonStorText {
+    margin: 10px;
+}
+.textNormal {
+    max-width: 960px;
+    line-height: 200%;
+}
+
+wrapperText {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.active {
+    background-color: pink;
+}
+
+header {
+    width: 100%;
+    flex: 1 1 auto;
+    align-self: flex-start;
+}
+
+#content {
+    flex: 0 1 auto;
+    align-self: auto;
+    min-height: calc(100vh - 220px);
+}
+
+.favorit {
+
+    width: 100px;
+    height: 10%;
+    background-color: rgb(238, 180, 191);
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 3.5s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+
+}
+
+@-webkit-keyframes example {
+    0%   {color: black; background-color: white; left:0px; top:0px;}
+  
+}
+
+@keyframes example {
+    0%   {color: black; background-color: white; left:0px; top:0px;}
+}
+
+
+/*CSS för member.php*/
+
+th {
+    color: black;
+
+}
+
+td {
+    color:#D84646;
+
+    
+}
+
+.tableWrapper {
+    display: flex; 
+    justify-content: center;
+}
+
+.tableWrapper table tr td {
+
+    padding: 10px;
+    box-shadow: 10px 10px 5px grey;
+
+}
+
+footer {
+
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255, 173, 188));
+    display: block;
+    text-shadow: 0 0 3px rgb(252, 149, 149);
+ 
+
+}
+
+
+.map-holder {
+    width: 600px;
+    height: 300px;
+    margin: 10px;
+}
+
+.message {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
