@@ -76,6 +76,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 }
 
 h1{
@@ -93,10 +94,14 @@ h1{
     margin: auto;
     width: 800px;
     height: 100%;
-    color: white;
+    color: black;
     display: flex;
     flex-direction: column;
     
+}
+
+#productCard h1{
+    color: black;
 }
 
 #productCard img{
