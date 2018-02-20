@@ -51,8 +51,8 @@ span {
     
 }
 
-h1{
-    color: pink;
+#h1Restaurang{
+    color: #f11754;
     font-family: 'Kavivanar', cursive;
 }
 
@@ -70,7 +70,7 @@ p{
 </head>
 <body>
 
-<h1>Hitta den perfekta restaurangen att fira alla❤️dag på</h1>
+<h1 id="h1Restaurang">Hitta den perfekta restaurangen att fira alla❤️dag på</h1>
 
 <div id="main">
     <div class="rest">    
