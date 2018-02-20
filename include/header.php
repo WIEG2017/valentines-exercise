@@ -12,7 +12,7 @@ include 'include/loginfunction.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://use.fontawesome.com/6b6b3eeb71.js"></script>
-    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
     <title><?php $title ?></title>
 </head>
 <body>
