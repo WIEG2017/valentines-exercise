@@ -1,0 +1,166 @@
+body{
+    padding:0;
+    margin:0; 
+    overflow-x: hidden;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;   
+}
+h1{
+    margin: 0px;
+    font-weight: 600;   
+}
+
+
+#header{
+    z-index: 1;
+    width:100vw;
+    height:50px;
+    background:  url("../img/hearts.png") no-repeat;
+    background-size: cover;
+    position:fixed;
+    margin-top:0px;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;   
+}
+#header h1{
+    margin: 8px;
+}
+#logo{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+#menuUL{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.7);
+
+}
+#menuUL>li {
+    float: left;
+}
+#menuUL>li>a:hover, .dropdownList:hover .dropbtn {
+    background-color: #fe0000;
+}
+#menuUL>li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    height: 50px;
+    padding: 17px 16px;
+    text-decoration: none; 
+}
+#menuUL>li.dropdownList {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background:  url("../img/hearts.png") no-repeat;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.5);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.layer {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {background-color: #fe0000;}
+
+.dropdownList:hover .dropdown-content {
+    display: block;
+}
+#footer{
+    font-family: 'Josefin Sans', sans-serif;
+    width:100vw;
+    height:170px;
+    background-color:#f11754;
+    margin-bottom:0px;
+    display: flex;
+    justify-content: flex-end;
+}
+#favoriter{
+    width: 200px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+#favoriter h2{
+    font-weight: 600;   
+    margin: 0px;
+    margin-bottom: -25px;
+}
+#favoriter p{
+    margin-left: 1px;
+    line-height: 0px;
+}
+#content{
+    margin: auto;
+    min-height:80vh;
+    padding-top: 50px;
+    width: 980px;
+}
+
+#singelS{
+    text-align: center;
+    margin-top:10vh;
+}
+.login{
+    background-color:#f11754;
+    height:40px;
+    width:80px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+.login:hover{
+    background-color:#ae0086;
+    color:blue;
+}
+#bg-pic-ssl{
+    background-color:#fe0000;
+}
+
+.card-img-top{
+    max-height:300px;
+    min-height: 300px;
+    max-width:320px;
+}
+.container{
+    z-index: 2;
+    margin-top:30px;
+}
+.imgGifts{
+    height: 150px;
+    width: 150px;
+}
+
+.CartClass {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 50px;
+    padding: 5px;
+    float:right;
+    width: 200px;
+}
+
+.ReadBtn {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 50px;
+    padding: 5px;
+    float:right;
+    width: 200px;
+}
+
+
+
